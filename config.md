@@ -12,6 +12,7 @@
 @def author.name = "Nathanael Bosch"
 @def author = "Nathanael Bosch"
 
+
 <!-- Social icons -->
 @def social = (
         github = "https://github.com/nathanaelbosch",
