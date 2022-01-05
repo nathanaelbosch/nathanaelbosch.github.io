@@ -6,7 +6,6 @@
 @def generate_rss = true
 
 
-
 <!-- Theme specific options -->
 <!-- @def title = "Nathanael Bosch" -->
 @def sitename = "Nathanael Bosch"
