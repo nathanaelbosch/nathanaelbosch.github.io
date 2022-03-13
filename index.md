@@ -1,4 +1,14 @@
 
+~~~
+<p align="center">
+<img class="circular--square"
+src="https://avatars.githubusercontent.com/u/25008422"
+alt="Avatar"
+width=40%
+>
+</p>
+~~~
+
 # {{ fill sitename }}
 {{ jlinsert social-icons }}
 
