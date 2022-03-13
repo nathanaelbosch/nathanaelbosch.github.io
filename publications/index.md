@@ -52,13 +52,13 @@ title = "Publications"
 
 ### Theses
 - **Learning Gaussian Process Dynamics Models from Visual Observations for Control**\\
-  Master thesis, Data Engineering and Analytics (2019)
+  *Master thesis in Data Engineering and Analytics*, 2019
 - **Evolutionary Games for Global Function Minimization**\\
-  Master thesis, Mathematics (2018)
+  *Master thesis in Mathematics*, 2018 \\
   [[thesis](https://www-m15.ma.tum.de/foswiki/pub/M15/Allgemeines/PublicationsEN/master_thesis_NBosch.pdf),
   [code](https://github.com/nathanaelbosch/egt)]
 - **Different Noise Models in Variable Density Compressed Sensing**\\
-  Bachelor thesis, Mathematics (2016)
+  *Bachelor thesis in Mathematics*, 2016
 
 ---
 
