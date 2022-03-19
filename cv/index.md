@@ -12,34 +12,41 @@ title = "Curriculum Vitae"
 
 ## Education
 
+\newcommand{\spacedright}[1]{
+  ~~~
+  <span style="float:right">
+  &nbsp; &nbsp; &nbsp; #1
+  </span>
+  ~~~
+}
+
 - **PhD in Machine Learning**
-  ~~~<span style="float:right"> 2020 - now </span>~~~\\
+  \spacedright{2020 - now}\\
   University of Tübingen
 - **MSc Data Engineering and Analytics**
-  ~~~<span style="float:right"> 2018 - 2019 </span>~~~\\
+  \spacedright{2018 - 2019}\\
   Technical University of Munich
 - **MSc Mathematics**
-  ~~~<span style="float:right"> 2016 - 2018 </span>~~~\\
+  \spacedright{2016 - 2018}\\
   Technical University of Munich
 - **BSc Mathematics**
-  ~~~<span style="float:right"> 2012 - 2016 </span>~~~\\
+  \spacedright{2012 - 2016}\\
   Technical University of Munich
 
 
 ## Teaching
 - Seminar: *Machine Learning for and with Dynamical Systems*
-  ~~~<span style="float:right"> 2021 </span>~~~\\
+  \spacedright{2021}\\
   University of Tübingen
 - Teaching Assistant: *Time Series*
-  ~~~<span style="float:right"> 2021 </span>~~~\\
+  \spacedright{2021}\\
   University of Tübingen
 - Teaching Assistant: *Principles of Mathematics 2*
-  ~~~<span style="float:right"> 2017 </span>~~~\\
+  \spacedright{2017}\\
   Technical University of Munich
 - Course Instructor for a five-day A-level preparation course
-  ~~~<span style="float:right"> 2016 & 2017 </span>~~~\\
+  \spacedright{2016 & 2017}\\
   abiturma GbR
-
 
 
 
