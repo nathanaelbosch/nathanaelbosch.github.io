@@ -1,7 +1,7 @@
 <!-- RSS settings -->
 
-@def website_title = "Nathanael"
-@def website_description = "Lorem Ipsum"
+@def website_title = "Nathanael Bosch"
+@def website_description = ""
 @def website_url = "https://nathanaelbosch.github.io"
 @def generate_rss = true
 
