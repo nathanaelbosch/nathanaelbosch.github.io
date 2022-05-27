@@ -18,13 +18,28 @@ title = "Publications"
   ~~~
 }
 
+- **Fenrir: Physics-Enhanced Regression for Initial Value Problems**
+  \spacedright{2022}\\
+  Filip Tronarp\*,
+  ~~~<ins>Nathanael Bosch</ins>*~~~,
+  Philipp Hennig.\\
+  _ICML 2022_ \\
+  [[arXiv 2202.01287](https://arxiv.org/abs/2202.01287)]
+- **Probabilistic ODE Solutions in Millions of Dimensions**
+  \spacedright{2022}\\
+  Nicholas Krämer\*,
+  ~~~<ins>Nathanael Bosch</ins>*~~~,
+  Jonathan Schmidt\*, Philipp Hennig.\\
+  _ICML 2022_ \\
+  [[arXiv 2110.11812](https://arxiv.org/abs/2110.11812)]
 - **Pick-and-Mix Information Operators for Probabilistic ODE Solvers**
   \spacedright{2022}\\
   ~~~<ins>Nathanael Bosch</ins>~~~,
   Filip Tronarp, Philipp Hennig.\\
   _AISTATS 2022_ \\
-  [[paper](https://arxiv.org/abs/2110.10770),
-  [code](https://github.com/nathanaelbosch/pick-and-mix)]
+  [[paper](https://proceedings.mlr.press/v151/bosch22a.html),
+  [code](https://github.com/nathanaelbosch/pick-and-mix),
+  [video](https://www.youtube.com/watch?v=-99BB_6gFVE)]
 - **Calibrated Adaptive Probabilistic ODE Solvers**
   \spacedright{2021}\\
   ~~~<ins>Nathanael Bosch</ins>~~~,
@@ -43,12 +58,6 @@ title = "Publications"
   [website](https://dlgpd.is.tue.mpg.de/)]
 
 ### Preprints
-- **Fenrir: Physics-Enhanced Regression for Initial Value Problems**
-  \spacedright{2022}\\
-  Filip Tronarp\*,
-  ~~~<ins>Nathanael Bosch</ins>*~~~,
-  Philipp Hennig.\\
-  [[arXiv 2202.01287](https://arxiv.org/abs/2202.01287)]
 - **ProbNum: Probabilistic Numerics in Python**
   \spacedright{2021}\\
   Jonathan Wenger, Nicholas Krämer, Marvin Pförtner, Jonathan Schmidt,
@@ -57,12 +66,6 @@ title = "Publications"
   [[arXiv 2112.02100](https://arxiv.org/abs/2112.02100),
   [code](https://github.com/probabilistic-numerics/probnum),
   [website](https://probnum.readthedocs.io/)]
-- **Probabilistic ODE Solutions in Millions of Dimensions**
-  \spacedright{2021}\\
-  Nicholas Krämer\*,
-  ~~~<ins>Nathanael Bosch</ins>*~~~,
-  Jonathan Schmidt\*, Philipp Hennig.\\
-  [[arXiv 2110.11812](https://arxiv.org/abs/2110.11812)]
 
 ### Theses
 - **Learning Gaussian Process Dynamics Models from Visual Observations for Control**
