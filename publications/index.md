@@ -24,14 +24,16 @@ title = "Publications"
   ~~~<ins>Nathanael Bosch</ins>*~~~,
   Philipp Hennig.\\
   _ICML 2022_ \\
-  [[arXiv 2202.01287](https://arxiv.org/abs/2202.01287)]
+  [[paper](https://proceedings.mlr.press/v162/tronarp22a.html),
+  [code](https://github.com/nathanaelbosch/fenrir-experiments)]
 - **Probabilistic ODE Solutions in Millions of Dimensions**
   \spacedright{2022}\\
   Nicholas Krämer\*,
   ~~~<ins>Nathanael Bosch</ins>*~~~,
   Jonathan Schmidt\*, Philipp Hennig.\\
   _ICML 2022_ \\
-  [[arXiv 2110.11812](https://arxiv.org/abs/2110.11812)]
+  [[paper](https://proceedings.mlr.press/v162/kramer22b.html),
+  [code](https://github.com/pnkraemer/million-dimension-prob-ode-solver-experiments)]
 - **Pick-and-Mix Information Operators for Probabilistic ODE Solvers**
   \spacedright{2022}\\
   ~~~<ins>Nathanael Bosch</ins>~~~,
