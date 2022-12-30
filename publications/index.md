@@ -19,7 +19,7 @@ title = "Publications"
 }
 
 \newcommand{\pubbutton}[2]{
-~~~<a href=#2 class=pubbuttons>#1</a>~~~
+~~~<a href=#2 class=pubbutton>#1</a>~~~
 }
 
 \newcommand{\styletext}[2]{

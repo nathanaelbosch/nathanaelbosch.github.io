@@ -800,7 +800,7 @@ blockquote p:last-of-type {
 ul,
 ol {
     margin-left:40px;
-    padding:0
+    padding:0;
 }
 @media(max-width:684px) {
     ul,
@@ -1278,4 +1278,41 @@ h1 code {
 }
 * {
     font-variant-ligatures: none;
+}
+
+.pubrow {
+    display: flex;
+    padding-bottom: 25px;
+}
+.pubfig {
+    width: 100%;
+    min-width: 80px;
+    max-width: 200px;
+    height: auto;
+    padding-right: 15px;
+}
+.pubfig img {
+    display: block;
+    margin: auto;
+}
+.pubtext {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.pubyear {
+    border-top: 0.1px solid;
+    border-color: lightgray;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+.pubbutton {
+    border: 1px solid;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    text-decoration: none;
+}
+.pubbutton:hover {
+    color: #3AA6B6;
 }
