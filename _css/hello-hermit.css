@@ -34,7 +34,18 @@ pre {
     font-size:1em
 }
 a {
-    background-color:transparent
+    background-color:transparent;
+}
+.pubbuttons {
+    border: 1px solid;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    text-decoration: none;
+}
+.pubbuttons:hover {
+    color: #3AA6B6;
 }
 abbr[title] {
     border-bottom:none;
