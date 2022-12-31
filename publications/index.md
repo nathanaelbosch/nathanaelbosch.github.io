@@ -21,7 +21,7 @@ title = "Publications"
 
 @@pubrow
 @@pubfig
-    \fig{/assets/fenrir.svg}
+    \fig{/assets/publications/fenrir.svg}
 @@
 @@pubtext
     **Fenrir: Physics-Enhanced Regression for Initial Value Problems** \\
@@ -37,7 +37,7 @@ title = "Publications"
 
 @@pubrow
 @@pubfig
-    \fig{/assets/highdim.svg}
+    \fig{/assets/publications/highdim.svg}
 @@
 @@pubtext
     **Probabilistic ODE Solutions in Millions of Dimensions** \\
@@ -53,7 +53,7 @@ title = "Publications"
 
 @@pubrow
 @@pubfig
-    \fig{/assets/pickandmix.svg}
+    \fig{/assets/publications/pickandmix.svg}
 @@
 @@pubtext
     **Pick-and-Mix Information Operators for Probabilistic ODE Solvers** \\
@@ -70,7 +70,7 @@ title = "Publications"
 
 @@pubrow
 @@pubfig
-    \fig{/assets/capos.svg}
+    \fig{/assets/publications/capos.svg}
 @@
 @@pubtext
     **Calibrated Adaptive Probabilistic ODE Solvers** \\
@@ -85,7 +85,7 @@ title = "Publications"
 
 @@pubrow
 @@pubfig
-    \fig{/assets/probnum.svg}
+    \fig{/assets/publications/probnum.svg}
 @@
 @@pubtext
     **ProbNum: Probabilistic Numerics in Python** \\
@@ -103,7 +103,7 @@ title = "Publications"
 
 @@pubrow
 @@pubfig
-    \fig{/assets/dlgpd.png}
+    \fig{/assets/publications/dlgpd.png}
 @@
 @@pubtext
     **Planning from Images with Deep Latent Gaussian Process Dynamics** \\
