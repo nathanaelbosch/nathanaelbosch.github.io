@@ -479,7 +479,9 @@ a.button.wide {
     align-items:center;
     justify-content:space-between;
     margin:0 auto;
-    width:760px;
+    width:800px;
+    padding-left: 20px;
+    padding-right: 20px;
     max-width:100%
 }
 .theme-toggle {
