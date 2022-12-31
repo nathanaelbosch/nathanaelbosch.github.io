@@ -35,6 +35,12 @@ title = "Curriculum Vitae"
 
 
 ## Teaching
+- Co-Lecturer: *Numerics of Machine Learning*
+  \spacedright{2022}\\
+  University of Tübingen
+- Teaching Assistant: *Data Literacy*
+  \spacedright{2021}\\
+  University of Tübingen
 - Seminar: *Machine Learning for and with Dynamical Systems*
   \spacedright{2021}\\
   University of Tübingen
