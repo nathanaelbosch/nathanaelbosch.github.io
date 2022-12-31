@@ -46,6 +46,7 @@ title = "Publications"
     Jonathan Schmidt\*, Philipp Hennig.\\
     _ICML 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v162/kramer22b.html}
+    \pubbutton{code}{https://github.com/pnkraemer/million-dimension-prob-ode-solver-experiments}
 @@
 @@
 
