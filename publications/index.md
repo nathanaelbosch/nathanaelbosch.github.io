@@ -10,26 +10,6 @@ title = "Publications"
 <h1><a href="{{ get_url }}">{{ fill title }}</a></h1>
 ~~~
 
-\newcommand{\spacedright}[1]{
-  ~~~
-  <span style="float:right">
-  &nbsp; &nbsp; &nbsp; #1
-  </span>
-  ~~~
-}
-
-\newcommand{\pubbutton}[2]{
-~~~<a href=#2 class=pubbutton>#1</a>~~~
-}
-
-\newcommand{\styletext}[2]{
-~~~
-<span style="#1">
-#2
-</span>
-~~~
-}
-
 \newcommand{\pubyear}[1]{
 @@pubyear
 \styletext{float:right; text-align:right}{#1}

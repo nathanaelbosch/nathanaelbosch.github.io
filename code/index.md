@@ -17,8 +17,8 @@ provides *probabilistic numerical* ODE solvers to the [DifferentialEquations.jl]
 
 Try it out: `] add ProbNumDiffEq.jl`
 
-[[github](https://github.com/nathanaelbosch/ProbNumDiffEq),
-[docs](https://nathanaelbosch.github.io/ProbNumDiffEq.jl)]
+\pubbutton{github}{https://github.com/nathanaelbosch/ProbNumDiffEq}
+\pubbutton{docs}{https://nathanaelbosch.github.io/ProbNumDiffEq.jl}
 
 ~~~
 <br>
@@ -30,9 +30,9 @@ ProbNum is a Python toolkit for solving numerical problems in linear algebra, op
 
 To use: `pip install probnum`
 
-[[github](https://github.com/probabilistic-numerics/probnum),
-[website](https://probnum.readthedocs.io/en/latest/),
-[paper](https://arxiv.org/abs/2112.02100)]
+\pubbutton{github}{https://github.com/probabilistic-numerics/probnum}
+\pubbutton{website}{https://probnum.readthedocs.io/en/latest/}
+\pubbutton{paper}{https://arxiv.org/abs/2112.02100}
 
 
 ~~~

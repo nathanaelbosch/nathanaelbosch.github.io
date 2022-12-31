@@ -36,6 +36,10 @@ pre {
 a {
     background-color:transparent;
 }
+a:hover {
+    color: var(--primary-color);
+}
+
 .pubbuttons {
     border: 1px solid;
     padding-left: 0.75rem;
@@ -43,9 +47,6 @@ a {
     padding-top: .25rem;
     padding-bottom: .25rem;
     text-decoration: none;
-}
-.pubbuttons:hover {
-    color: #3AA6B6;
 }
 abbr[title] {
     border-bottom:none;
@@ -267,7 +268,9 @@ pre[class*=language-] {
 }
 :root {
     --phoneWidth: (max-width: 684px);
-    --tabletWidth: (max-width: 900px)
+    --tabletWidth: (max-width: 900px);
+    --primary-color: #39b54a;
+    --secondary-color: #3AA6B6;
 }
 @font-face {
     font-family:inter ui;
@@ -517,7 +520,7 @@ a.button.wide {
     width:10px;
     /*height:1rem;*/
     height:1.125rem;
-    background:#39b54a;
+    background:var(--primary-color);
     /*margin-left:5px;*/
     border-radius:1px;
     animation:cursor 1.5s infinite;
@@ -572,6 +575,12 @@ a.button.wide {
 }
 .menu__inner li {
     margin:0 12px
+}
+.menu__inner li:hover {
+    color: var(--primary-color);
+}
+.menu__inner li a:hover {
+    text-decoration:none;
 }
 @media(max-width:684px) {
     .menu__inner {
@@ -1314,5 +1323,5 @@ h1 code {
     text-decoration: none;
 }
 .pubbutton:hover {
-    color: #3AA6B6;
+    color: var(--primary-color);
 }
