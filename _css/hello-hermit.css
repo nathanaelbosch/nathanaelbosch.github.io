@@ -1297,7 +1297,7 @@ h1 code {
 }
 .pubfig {
     width: 100%;
-    min-width: 80px;
+    min-width: 200px;
     max-width: 200px;
     height: auto;
     padding-right: 15px;
