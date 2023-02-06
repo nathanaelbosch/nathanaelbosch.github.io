@@ -17,7 +17,7 @@ body {
     margin:0
 }
 main {
-    display:block
+    display:block;
 }
 h1 {
     font-size:2em;
@@ -33,11 +33,21 @@ pre {
     font-display:auto;
     font-size:1em
 }
+p a {
+    text-decoration: none;
+    color:var(--secondary-color);
+}
 a {
     background-color:transparent;
+    color:inherit;
+    outline: 0;
+    transition: 0.35s;
 }
 a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
+}
+p a:hover {
+    text-decoration:underline;
 }
 
 .pubbuttons {
@@ -508,6 +518,9 @@ a.button.wide {
     font-display:auto;
     font-family:JuliaMono,monospace,monospace
 }
+.logo:hover {
+    color: var(--primary-color);
+}
 .logo img {
     height:44px
 }
@@ -547,7 +560,7 @@ a.button.wide {
     background:#fafafa;
     border-right:1px solid;
     margin-right:18px;
-    z-index:9999
+    z-index:9999;
 }
 .dark-theme .menu {
     background:#252627
@@ -690,9 +703,6 @@ h4 {
     h4 {
         font-size:1.125rem
     }
-}
-a {
-    color:inherit
 }
 .circular--square {
     border-radius:15%;
@@ -1207,9 +1217,6 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
  margin:0 0 20px
 }
 */
-a {
-    outline: 0;
-}
 
 .social-icons svg {
     font-size: 1.5em;
@@ -1305,6 +1312,9 @@ h1 code {
 .pubfig img {
     display: block;
     margin: auto;
+    box-shadow: 0 2px 5px 0;
+    width: 100%;
+    border-radius: 0.25rem;
 }
 .pubtext {
     padding-right: 15px;
@@ -1320,10 +1330,15 @@ h1 code {
     border: 1px solid;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-    padding-top: .25rem;
+    padding-top: .15rem;
     padding-bottom: .25rem;
     text-decoration: none;
+    box-shadow: 0px 1px 1px 0px;
+    color: #222;
+}
+.dark-theme .pubbutton {
+    color: #eee;
 }
 .pubbutton:hover {
-    color: var(--primary-color);
+    text-decoration: none;
 }
