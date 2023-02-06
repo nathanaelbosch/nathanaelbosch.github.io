@@ -24,10 +24,10 @@ My research mostly focuses on [**probabilistic numerics**](https://www.probabili
 where we treat numerical solvers themselves as probabilistic inference
 with the goal to develop methods that provide efficient quantification of numerical error and enable new ways to do data-driven inference in dynamical systems.
 
-I also like to make my research widely accessible in the form of [open-source software](/code/).
-Most of my research can be used via
-[ProbNumDiffEq.jl](https://github.com/nathanaelbosch/ProbNumDiffEq.jl),
-a library for efficient probabilistic numerical differential equation solvers in Julia
+I also like to make my research widely accessible in the form of [open-source software](/code/),
+for example via
+[ProbNumDiffEq.jl](https://github.com/nathanaelbosch/ProbNumDiffEq.jl)
+which provides efficient probabilistic numerical differential equation solvers in Julia.
 
 ---
 
