@@ -973,7 +973,7 @@ hr {
 .post {
     width:100%;
     max-width:800px;
-    text-align:justify;
+    text-align:left;
     padding:20px;
     margin:20px auto
 }
@@ -1300,7 +1300,6 @@ h1 code {
 
 .pubrow {
     display: flex;
-    min-width: 600px;
     padding-bottom: 25px;
 }
 .pubfig {

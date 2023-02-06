@@ -19,6 +19,7 @@ width=40%
 
 ---
 
+~~~<div style="text-align:justify">~~~
 I am a PhD student in machine learning at the University of Tübingen and the International Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)), supervised by [Philipp Hennig](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/philipp-hennig/).
 My research mostly focuses on [**probabilistic numerics**](https://www.probabilistic-numerics.org/) for differential equations,
 where I treat numerical solvers themselves as probabilistic inference
@@ -28,6 +29,7 @@ I also like to make my research widely accessible in the form of [open-source so
 for example via
 [ProbNumDiffEq.jl](https://github.com/nathanaelbosch/ProbNumDiffEq.jl)
 which provides efficient probabilistic numerical differential equation solvers in Julia.
+~~~</div>~~~
 
 ---
 
