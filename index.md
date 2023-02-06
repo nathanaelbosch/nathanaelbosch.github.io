@@ -21,7 +21,7 @@ width=40%
 
 I am a PhD student in machine learning at the University of Tübingen and the International Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)), supervised by [Philipp Hennig](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/philipp-hennig/).
 My research mostly focuses on [**probabilistic numerics**](https://www.probabilistic-numerics.org/) for differential equations,
-where we treat numerical solvers themselves as probabilistic inference
+where I treat numerical solvers themselves as probabilistic inference
 with the goal to develop methods that provide efficient quantification of numerical error and enable new ways to do data-driven inference in dynamical systems.
 
 I also like to make my research widely accessible in the form of [open-source software](/code/),
