@@ -58,7 +58,7 @@ title = "Curriculum Vitae"
   \spacedright{2021}\\
   \unistyle{University of Tübingen}\\
 
-- \styletext{font-size:110%}{Seminar: **Machine Learning for and with Dynamical Systems**}}
+- \styletext{font-size:110%}{Seminar: **Machine Learning for and with Dynamical Systems**}
   \spacedright{2021}\\
   \unistyle{University of Tübingen}\\
   Jointly organized with [Nicholas Krämer](https://pnkraemer.github.io/).
