@@ -1345,3 +1345,15 @@ h1 code {
 .pubbutton:hover {
     text-decoration: none;
 }
+.author {
+    display: inline
+}
+.author a {
+    /* color: var(--secondary-color); */
+    text-decoration: underline dashed;
+    /* border-bottom: 1px dashed #222; */
+    /* text-decoration: none; */
+}
+.author a:hover {
+    text-decoration: underline;
+}

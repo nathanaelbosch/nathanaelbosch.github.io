@@ -10,12 +10,34 @@ title = "Publications"
 <h1><a href="{{ get_url }}">{{ fill title }}</a></h1>
 ~~~
 
+<!-- co-authors: -->
+
+
 \newcommand{\pubyear}[1]{
 @@pubyear
 \styletext{float:right; text-align:right}{#1}
 @@
 }
 
+\newcommand{\me}{~~~<ins>Nathanael Bosch</ins>~~~}
+
+\newcommand{\author}[2]{@@author
+[#1](#2)
+@@}
+
+\newcommand{\ph}{\author{Philipp Hennig}{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/philipp-hennig/}}
+\newcommand{\js}{\author{Jonathan Schmidt}{https://schmidtjonathan.github.io/}}
+\newcommand{\mp}{\author{Marvin Pförtner}{https://marvinpfoertner.github.io/}}
+\newcommand{\pn}{\author{Nicholas Krämer}{https://pnkraemer.github.io/}}
+\newcommand{\jw}{\author{Jonathan Wenger}{https://jonathanwenger.netlify.app/}}
+\newcommand{\tonikarvonen}{\author{Toni Karvonen}{https://tskarvone.github.io/}}
+\newcommand{\ninaeffenberger}{\author{Nina Effenberger}{https://www.mlsustainableenergy.com/people/nina-effenberger/}}
+\newcommand{\jzenn}{\author{Johannes Zenn}{https://jzenn.github.io/}}
+\newcommand{\fxbriol}{\author{Francois-Xavier Briol}{https://fxbriol.github.io/}}
+\newcommand{\mmahsereci}{\author{Maren Mahsereci}{https://mmahsereci.github.io/}}
+\newcommand{\jstueckler}{\author{Jörg Stückler}{https://is.mpg.de/person/jstueckler}}
+\newcommand{\llt}{\author{Laura Leal-Taixé}{https://dvl.in.tum.de/team/lealtaixe/}}
+\newcommand{\jachterhold}{\author{Jan Achterhold}{https://is.mpg.de/~jachterhold}}
 
 \pubyear{2022}
 
@@ -25,9 +47,7 @@ title = "Publications"
 @@
 @@pubtext
     **Fenrir: Physics-Enhanced Regression for Initial Value Problems** \\
-    Filip Tronarp\*,
-    ~~~<ins>Nathanael Bosch</ins>*~~~,
-    Philipp Hennig.\\
+    Filip Tronarp\*, \me\*, \ph.\\
     _ICML 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v162/tronarp22a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/fenrir-experiments}
@@ -41,9 +61,7 @@ title = "Publications"
 @@
 @@pubtext
     **Probabilistic ODE Solutions in Millions of Dimensions** \\
-    Nicholas Krämer\*,
-    ~~~<ins>Nathanael Bosch</ins>*~~~,
-    Jonathan Schmidt\*, Philipp Hennig.\\
+    \pn\*, \me\*, \js\*, \ph.\\
     _ICML 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v162/kramer22b.html}
     \pubbutton{code}{https://github.com/pnkraemer/million-dimension-prob-ode-solver-experiments}
@@ -57,8 +75,7 @@ title = "Publications"
 @@
 @@pubtext
     **Pick-and-Mix Information Operators for Probabilistic ODE Solvers** \\
-    ~~~<ins>Nathanael Bosch</ins>~~~,
-    Filip Tronarp, Philipp Hennig.\\
+    \me, Filip Tronarp, \ph.\\
     _AISTATS 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v151/bosch22a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/pick-and-mix}
@@ -74,8 +91,7 @@ title = "Publications"
 @@
 @@pubtext
     **Calibrated Adaptive Probabilistic ODE Solvers** \\
-    ~~~<ins>Nathanael Bosch</ins>~~~,
-    Philipp Hennig, Filip Tronarp. \\
+    \me, \ph, Filip Tronarp. \\
     _AISTATS 2021_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v130/bosch21a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/capos}
@@ -89,9 +105,7 @@ title = "Publications"
 @@
 @@pubtext
     **ProbNum: Probabilistic Numerics in Python** \\
-    Jonathan Wenger, Nicholas Krämer, Marvin Pförtner, Jonathan Schmidt,
-    ~~~<ins>Nathanael Bosch</ins>~~~,
-    Nina Effenberger, Johannes Zenn, Alexandra Gessner, Toni Karvonen, Francois-Xavier Briol, Maren Mahsereci, Philipp Hennig.\\
+    \jw, \pn, \mp, \js, \me, \ninaeffenberger, \jzenn, Alexandra Gessner, \tonikarvonen, \fxbriol, \mmahsereci, \ph.\\
     _arXiv (preprint)_ \\
     \pubbutton{arXiv}{https://arxiv.org/abs/2112.02100}
     \pubbutton{code}{https://github.com/probabilistic-numerics/probnum}
@@ -107,8 +121,7 @@ title = "Publications"
 @@
 @@pubtext
     **Planning from Images with Deep Latent Gaussian Process Dynamics** \\
-    ~~~<ins>Nathanael Bosch</ins>*~~~,
-    Jan Achterhold\*, Laura Leal-Taixé, Jörg Stückler.\\
+    \me\*, \jachterhold\*, \llt, \jstueckler.\\
     _L4DC 2020_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v120/bosch20a}
     \pubbutton{code}{https://github.com/EmbodiedVision/dlgpd}
