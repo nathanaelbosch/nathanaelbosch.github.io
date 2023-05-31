@@ -12,7 +12,7 @@ title = "Open Source Projects"
 
 ## [**ProbNumDiffEq.jl**](https://github.com/nathanaelbosch/ProbNumDiffEq.jl)
 \fig{/assets/probnumdiffeq-banner.svg}
-[ProbNumDiffEq.jl](https://github.com/nathanaelbosch/ProbNumDiffEq)
+[ProbNumDiffEq.jl](https://github.com/nathanaelbosch/ProbNumDiffEq.jl)
 provides *probabilistic numerical* ODE solvers to the [DifferentialEquations.jl](https://diffeq.sciml.ai) ecosystem. The implemented ODE filters solve differential equations via Bayesian filtering and smoothing. The filters compute not just a single point estimate of the true solution, but a posterior distribution that contains an estimate of its numerical approximation error.
 
 Try it out: `] add ProbNumDiffEq.jl`
