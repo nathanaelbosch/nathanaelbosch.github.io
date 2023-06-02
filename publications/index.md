@@ -26,6 +26,7 @@ title = "Publications"
 @@}
 
 \newcommand{\ph}{\author{Philipp Hennig}{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/philipp-hennig/}}
+\newcommand{\ft}{\author{Filip Tronarp}{https://filtron.github.io/}}
 \newcommand{\js}{\author{Jonathan Schmidt}{https://schmidtjonathan.github.io/}}
 \newcommand{\mp}{\author{Marvin Pförtner}{https://marvinpfoertner.github.io/}}
 \newcommand{\pn}{\author{Nicholas Krämer}{https://pnkraemer.github.io/}}
@@ -39,6 +40,21 @@ title = "Publications"
 \newcommand{\llt}{\author{Laura Leal-Taixé}{https://dvl.in.tum.de/team/lealtaixe/}}
 \newcommand{\jachterhold}{\author{Jan Achterhold}{https://is.mpg.de/~jachterhold}}
 
+\pubyear{2023}
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/probexpint.svg}
+@@
+@@pubtext
+    **Probabilistic Exponential Integrators** \\
+    \me, \ft, \ph.\\
+    _arXiv (preprint)_ \\
+    \pubbutton{arxiv}{https://arxiv.org/abs/2305.14978}
+    \pubbutton{code}{https://github.com/nathanaelbosch/probabilistic-exponential-integrators}
+@@
+@@
+
 \pubyear{2022}
 
 @@pubrow
@@ -47,7 +63,7 @@ title = "Publications"
 @@
 @@pubtext
     **Fenrir: Physics-Enhanced Regression for Initial Value Problems** \\
-    Filip Tronarp\*, \me\*, \ph.\\
+    \ft\*, \me\*, \ph.\\
     _ICML 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v162/tronarp22a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/fenrir-experiments}
@@ -75,7 +91,7 @@ title = "Publications"
 @@
 @@pubtext
     **Pick-and-Mix Information Operators for Probabilistic ODE Solvers** \\
-    \me, Filip Tronarp, \ph.\\
+    \me, \ft, \ph.\\
     _AISTATS 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v151/bosch22a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/pick-and-mix}
@@ -91,7 +107,7 @@ title = "Publications"
 @@
 @@pubtext
     **Calibrated Adaptive Probabilistic ODE Solvers** \\
-    \me, \ph, Filip Tronarp. \\
+    \me, \ph, \ft. \\
     _AISTATS 2021_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v130/bosch21a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/capos}
