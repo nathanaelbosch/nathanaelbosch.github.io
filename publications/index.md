@@ -48,9 +48,9 @@ title = "Publications"
 @@
 @@pubtext
     **Probabilistic Exponential Integrators** \\
-    \me, \ft, \ph.\\
-    _arXiv (preprint)_ \\
-    \pubbutton{arxiv}{https://arxiv.org/abs/2305.14978}
+    \me, \ph, \ft.\\
+    _NeurIPS 2023_ \\
+    \pubbutton{paper}{https://openreview.net/forum?id=2dx5MNs2Ip}
     \pubbutton{code}{https://github.com/nathanaelbosch/probabilistic-exponential-integrators}
 @@
 @@
