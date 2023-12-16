@@ -39,8 +39,24 @@ title = "Publications"
 \newcommand{\jstueckler}{\author{Jörg Stückler}{https://is.mpg.de/person/jstueckler}}
 \newcommand{\llt}{\author{Laura Leal-Taixé}{https://dvl.in.tum.de/team/lealtaixe/}}
 \newcommand{\jachterhold}{\author{Jan Achterhold}{https://is.mpg.de/~jachterhold}}
+\newcommand{\adriencorenflos}{\author{Adrien Corenflos}{https://adriencorenflos.github.io/}}
+\newcommand{\fatemehyaghoobi}{\author{Fatemeh Yaghoobi}{https://scholar.google.com/citations?user=vV_mN7QAAAAJ}}
+\newcommand{\ss}{\author{Simo Särkkä}{https://users.aalto.fi/~ssarkka/}}
 
 \pubyear{2023}
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/parallel-ode-filters.svg}
+@@
+@@pubtext
+    **Parallel-in-Time Probabilistic Numerical ODE Solvers** \\
+    \me, \adriencorenflos, \fatemehyaghoobi, \ft, \ph, \ss\\
+    _arXiv (preprint)_ \\
+    \pubbutton{arXiv}{https://arxiv.org/abs/2310.01145}
+    \pubbutton{code}{https://github.com/nathanaelbosch/parallel-in-time-ode-filters}
+@@
+@@
 
 @@pubrow
 @@pubfig
