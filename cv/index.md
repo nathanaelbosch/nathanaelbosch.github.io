@@ -10,6 +10,11 @@ title = "Curriculum Vitae"
 <h1><a href="{{ get_url }}">{{ fill title }}</a></h1>
 ~~~
 
+
+~~~
+PDF here: <a href=/assets/cv.pdf>cv.pdf</a> (updated 17.12.2023)
+~~~
+
 ## Education
 
 \newcommand{\spacedright}[1]{
