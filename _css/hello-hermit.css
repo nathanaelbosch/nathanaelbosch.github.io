@@ -1315,6 +1315,7 @@ h1 code {
     box-shadow: 0 2px 5px 0;
     width: 100%;
     border-radius: 0.25rem;
+    background-color: #fff;
 }
 .dark-theme .pubfig img {
     box-shadow: 0 0 0 0;
@@ -1336,7 +1337,7 @@ h1 code {
     padding-top: .15rem;
     padding-bottom: .25rem;
     text-decoration: none;
-    box-shadow: 0px 1px 1px 0px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     color: #222;
 }
 .dark-theme .pubbutton {
@@ -1356,4 +1357,34 @@ h1 code {
 }
 .author a:hover {
     text-decoration: underline;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+
+.card:hover {
+    background-color: #f5f5f5;
+}
+
+.dark-theme .card:hover {
+    background-color: #222;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card img {
+    max-width: 100%; /* Ensure images don't overflow */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add spacing between image and description */
 }
