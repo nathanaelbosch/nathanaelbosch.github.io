@@ -2,7 +2,7 @@ default:
     just --list
 
 check-links:
-    blc https://nathanaelbosch.github.io
-    blc https://nathanaelbosch.github.io/publications
-    blc https://nathanaelbosch.github.io/code
-    blc https://nathanaelbosch.github.io/cv
+    -blc http://localhost:8000
+    -blc http://localhost:8000/publications
+    -blc http://localhost:8000/code
+    -blc http://localhost:8000/cv
