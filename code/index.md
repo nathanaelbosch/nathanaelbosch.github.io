@@ -42,7 +42,7 @@ provides *probabilistic numerical* ODE solvers to the [DifferentialEquations.jl]
 
 Try it out: `] add ProbNumDiffEq.jl`
 
-\pubbutton{github}{https://github.com/nathanaelbosch/ProbNumDiffEq}
+\pubbutton{github}{https://github.com/nathanaelbosch/ProbNumDiffEq.jl}
 \pubbutton{docs}{https://nathanaelbosch.github.io/ProbNumDiffEq.jl}
 }
 
