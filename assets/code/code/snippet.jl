@@ -14,8 +14,7 @@ function get_github_description(repo)
     api_url = "https://api.github.com/repos/$owner/$repo_name"
 
     # Make a GET request to the GitHub API
-    headers = Dict("Authorization" => "token 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")
-    response = HTTP.get(api_url, headers=headers)
+    response = HTTP.get(api_url)
 
     if response.status == 200
         # Parse the JSON response
