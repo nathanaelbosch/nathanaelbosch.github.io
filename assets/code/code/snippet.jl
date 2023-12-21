@@ -28,4 +28,4 @@ function get_github_description(repo)
     end
 end
 
-println(get_github_description("nathanaelbosch/PSDMatrices.jl"))
+println(get_github_description("nathanaelbosch/generative-latent-optimization"))
