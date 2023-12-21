@@ -119,7 +119,7 @@ println(get_github_description("!#1"))
 }
 
 \newcommand{\clickablecard}[2]{
-~~~<div class="card" onclick="window.location.href='!#1';">~~~
+~~~<a class="card" href=#1>~~~
 !#2
-~~~</div>~~~
+~~~</a>~~~
 }
