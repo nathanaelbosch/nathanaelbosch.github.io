@@ -19,7 +19,7 @@ title = "Open Source Projects"
         <img src="https://img.shields.io/github/stars/!#1/!#2?style=flat-square" alt="GitHub stars">
     </h3>
     <!-- Add other content here as needed -->
-    <div class="project-description">
+    <div style="text-align:justify">
 ~~~
 !#3
 ~~~
