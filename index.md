@@ -28,7 +28,7 @@ by treating numerical simulation as a probabilistic inference problem, we develo
 ~~~</p>~~~
 
 ~~~<p>~~~
-I also like to make my research widely accessible in the form of open-source software:
+I also make my research widely accessible in the form of open-source software:
 [ProbNumDiffEq.jl](https://github.com/nathanaelbosch/ProbNumDiffEq.jl)
 provides efficient probabilistic numerical differential equation solvers in Julia that are compatible with the broader [DifferentialEquations.jl](https://diffeq.sciml.ai) ecosystem - and it contains nearly all the methods that I published in my PhD.
 I also contributed to the [probnum](https://probnum.readthedocs.io/en/latest/index.html) probabilistic numerics toolkit and maintain a range of smaller Julia packages.
