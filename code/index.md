@@ -60,13 +60,15 @@ To use: `pip install probnum`
 
 \compactcodeproject{nathanaelbosch}{Fenrir.jl}
 
-\compactcodeproject{pnkraemer}{tornadox}
-
 \compactcodeproject{nathanaelbosch}{TuePlots.jl}
 
 \compactcodeproject{nathanaelbosch}{KalmanFilterToolbox.jl}
 
 \compactcodeproject{nathanaelbosch}{PSDMatrices.jl}
+
+\compactcodeproject{nathanaelbosch}{ChaoticDynamicalSystemLibrary.jl}
+
+\compactcodeproject{pnkraemer}{tornadox}
 
 \compactcodeproject{nathanaelbosch}{generative-latent-optimization}
 
