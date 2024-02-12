@@ -42,6 +42,22 @@ title = "Publications"
 \newcommand{\adriencorenflos}{\author{Adrien Corenflos}{https://adriencorenflos.github.io/}}
 \newcommand{\fatemehyaghoobi}{\author{Fatemeh Yaghoobi}{https://scholar.google.com/citations?user=vV_mN7QAAAAJ}}
 \newcommand{\ss}{\author{Simo Särkkä}{https://users.aalto.fi/~ssarkka/}}
+\newcommand{\melaniezeilinger}{\author{Melanie Zeilinger}{https://idsc.ethz.ch/the-institute/people/person-detail.html?persid=142737}}
+\newcommand{\amonlahr}{\author{Amon Lahr}{https://idsc.ethz.ch/research-zeilinger/people/person-detail.MjkzNjUw.TGlzdC8xOTI5LDg4NTM5MTE3.html}}
+
+\pubyear{2024}
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/mpc.svg}
+@@
+@@pubtext
+    **Probabilistic ODE Solvers for Integration Error-Aware Model Predictive Control** \\
+    \amonlahr, \ft, \me, \js, \ph, \melaniezeilinger\\
+    _arXiv (preprint)_ \\
+    \pubbutton{arXiv}{https://arxiv.org/abs/2401.17731}
+@@
+@@
 
 \pubyear{2023}
 
