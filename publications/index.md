@@ -44,8 +44,26 @@ title = "Publications"
 \newcommand{\ss}{\author{Simo Särkkä}{https://users.aalto.fi/~ssarkka/}}
 \newcommand{\melaniezeilinger}{\author{Melanie Zeilinger}{https://idsc.ethz.ch/the-institute/people/person-detail.html?persid=142737}}
 \newcommand{\amonlahr}{\author{Amon Lahr}{https://idsc.ethz.ch/research-zeilinger/people/person-detail.MjkzNjUw.TGlzdC8xOTI5LDg4NTM5MTE3.html}}
+\newcommand{\jonasbeck}{\author{Jonas Beck}{https://hertie.ai/data-science/team/members/jonas-beck}}
+\newcommand{\michaeldeistler}{\author{Michael Deistler}{https://michaeldeistler.github.io/}}
+\newcommand{\jakobmacke}{\author{Jakob Macke}{https://www.mackelab.org/people/}}
+\newcommand{\philippberens}{\author{Philipp Berens}{https://hertie.ai/data-science/team/members/philipp-berens}}
+\newcommand{\kyrakadhim}{\author{Kyra L. Kadhim}{https://hertie.ai/data-science/team/members/kyra-kadhim}}
+
 
 \pubyear{2024}
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/fenrir4neuro.png}
+@@
+@@pubtext
+    **Diffusion Tempering Improves Parameter Estimation with Probabilistic Integrators for Ordinary Differential Equations** \\
+    \jonasbeck, \me, \michaeldeistler, \kyrakadhim, \jakobmacke, \ph, \philippberens\\
+    _arXiv (preprint)_ \\
+    \pubbutton{arXiv}{https://arxiv.org/abs/2402.12231}
+@@
+@@
 
 @@pubrow
 @@pubfig
