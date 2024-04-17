@@ -28,6 +28,7 @@
 <!-- Menu -->
 @def menu = [
         (name = "publications", url = "/publications/"),
+        (name = "talks", url = "/talks/"),
         (name = "code", url = "/code/"),
         (name = "cv", url = "/cv/"),
         #(name = "about me", url = "/about_me/"),

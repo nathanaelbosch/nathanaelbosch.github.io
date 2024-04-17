@@ -1324,6 +1324,11 @@ h1 code {
     padding-right: 15px;
     padding-left: 15px;
 }
+.talktext {
+    min-width: 800px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .pubyear {
     border-top: 0.1px solid;
     border-color: lightgray;
