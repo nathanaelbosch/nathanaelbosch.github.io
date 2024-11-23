@@ -12,22 +12,29 @@ title = "Talks"
 
 <!-- co-authors: -->
 
-\yearsec{Upcoming}
-\\
-
-@@pubrow
-@@talktext
-    [**JuliaCon 2024**](https://juliacon.org/2024/), Eindhoven, Netherlands \\
-    Talk: *Fast Probabilistic Inference for ODEs with ProbNumDiffEq.jl*
-@@
-@@
-
 
 \yearsec{2024}
 
 @@pubrow
 @@talktext
-    [**Probabilistic Numerics Spring School**](https://probnumschool.org), Southampton, UK \\
+    [**Probabilistic Numerics Workshop (ProbNum24)**](https://probnum24.github.io/), London, United Kingdom \\
+    Talk: *Robust Parameter Inference in ODEs via Physics-Enhanced Gaussian Process Regression* \\
+    \pubbutton{slides}{/assets/talks/2024_probnum24_slides.pdf}
+@@
+@@
+
+@@pubrow
+@@talktext
+    [**JuliaCon 2024**](https://juliacon.org/2024/), Eindhoven, Netherlands \\
+    Talk: *Fast Probabilistic Inference for ODEs with ProbNumDiffEq.jl* \\
+    \pubbutton{youtube}{https://www.youtube.com/watch?v=iH_GQiOaeUo}
+    \pubbutton{slides}{/assets/talks/2024_juliacon_slides.pdf}
+@@
+@@
+
+@@pubrow
+@@talktext
+    [**Probabilistic Numerics Spring School**](https://probnumschool.org), Southampton, United Kingdom \\
     Practical Session: *Probabilistic Numerics for ODEs* \\
     \pubbutton{notebooks}{https://github.com/nathanaelbosch/probnumspringschool2024-tutorial}
 @@

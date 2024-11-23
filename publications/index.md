@@ -49,9 +49,37 @@ title = "Publications"
 \newcommand{\jakobmacke}{\author{Jakob Macke}{https://www.mackelab.org/people/}}
 \newcommand{\philippberens}{\author{Philipp Berens}{https://hertie.ai/data-science/team/members/philipp-berens}}
 \newcommand{\kyrakadhim}{\author{Kyra L. Kadhim}{https://hertie.ai/data-science/team/members/kyra-kadhim}}
+\newcommand{\joannasliwa}{\author{Joanna Sliwa}{https://joannasliwa.github.io/}}
+\newcommand{\frankschneider}{\author{Frank Schneider}{https://fsschneider.netlify.app/}}
+\newcommand{\agustinus}{\author{Agustinus Kristiadi}{https://agustinus.kristia.de/}}
 
 
 \pubyear{2024}
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/joss.svg}
+@@
+@@pubtext
+    **ProbNumDiffEq. jl: Probabilistic Numerical Solvers for Ordinary Differential Equations in Julia** \\
+    \me\\
+    _JOSS_ \\
+    \pubbutton{paper}{https://joss.theoj.org/papers/10.21105/joss.07048}
+    \pubbutton{code}{https://github.com/nathanaelbosch/ProbNumDiffEq.jl}
+@@
+@@
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/joannapaper.png}
+@@
+@@pubtext
+    **Efficient Weight-Space Laplace-Gaussian Filtering and Smoothing for Sequential Deep Learning** \\
+    \joannasliwa, \frankschneider, \me, \agustinus, \ph\\
+    _arXiv (preprint)_ \\
+    \pubbutton{arxiv}{https://arxiv.org/abs/2410.06800}
+@@
+@@
 
 @@pubrow
 @@pubfig
@@ -60,8 +88,22 @@ title = "Publications"
 @@pubtext
     **Diffusion Tempering Improves Parameter Estimation with Probabilistic Integrators for Ordinary Differential Equations** \\
     \jonasbeck, \me, \michaeldeistler, \kyrakadhim, \jakobmacke, \ph, \philippberens\\
-    _arXiv (preprint)_ \\
-    \pubbutton{arXiv}{https://arxiv.org/abs/2402.12231}
+    _ICML 2024_ \\
+    \pubbutton{paper}{https://proceedings.mlr.press/v235/beck24a.html}
+    \pubbutton{code}{https://github.com/berenslab/DiffusionTempering}
+@@
+@@
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/parallel-ode-filters.svg}
+@@
+@@pubtext
+    **Parallel-in-Time Probabilistic Numerical ODE Solvers** \\
+    \me, \adriencorenflos, \fatemehyaghoobi, \ft, \ph, \ss\\
+    _JMLR_ \\
+    \pubbutton{paper}{https://www.jmlr.org/papers/v25/23-1261.html}
+    \pubbutton{code}{https://github.com/nathanaelbosch/parallel-in-time-ode-filters}
 @@
 @@
 
@@ -72,25 +114,12 @@ title = "Publications"
 @@pubtext
     **Probabilistic ODE Solvers for Integration Error-Aware Model Predictive Control** \\
     \amonlahr, \ft, \me, \js, \ph, \melaniezeilinger\\
-    _arXiv (preprint)_ \\
-    \pubbutton{arXiv}{https://arxiv.org/abs/2401.17731}
+    _L4DC 2024_ \\
+    \pubbutton{paper}{https://proceedings.mlr.press/v242/lahr24a.html}
 @@
 @@
 
 \pubyear{2023}
-
-@@pubrow
-@@pubfig
-    \fig{/assets/publications/parallel-ode-filters.svg}
-@@
-@@pubtext
-    **Parallel-in-Time Probabilistic Numerical ODE Solvers** \\
-    \me, \adriencorenflos, \fatemehyaghoobi, \ft, \ph, \ss\\
-    _arXiv (preprint)_ \\
-    \pubbutton{arXiv}{https://arxiv.org/abs/2310.01145}
-    \pubbutton{code}{https://github.com/nathanaelbosch/parallel-in-time-ode-filters}
-@@
-@@
 
 @@pubrow
 @@pubfig
@@ -204,7 +233,8 @@ title = "Publications"
 @@
 @@pubtext
     **Learning Gaussian Process Dynamics Models from Visual Observations for Control** \\
-    Master thesis in *Data Engineering and Analytics*
+    Master thesis in *Data Engineering and Analytics*\\
+    \pubbutton{pdf}{/assets/publications/thesis_dea.pdf}
 @@
 @@
 
@@ -215,7 +245,7 @@ title = "Publications"
 @@pubtext
     **Evolutionary Games for Global Function Minimization** \\
     Master thesis in *Mathematics* \\
-    \pubbutton{pdf}{https://www-m15.ma.tum.de/foswiki/pub/M15/Allgemeines/PublicationsEN/master_thesis_NBosch.pdf}
+    <!-- \pubbutton{pdf}{https://www-m15.ma.tum.de/foswiki/pub/M15/Allgemeines/PublicationsEN/master_thesis_NBosch.pdf} -->
     \pubbutton{code}{https://github.com/nathanaelbosch/egt}
 @@
 @@

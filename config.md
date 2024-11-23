@@ -30,7 +30,7 @@
         (name = "publications", url = "/publications/"),
         (name = "talks", url = "/talks/"),
         (name = "code", url = "/code/"),
-        (name = "cv", url = "/cv/"),
+        (name = "cv", url = "/assets/cv.pdf"),
         #(name = "about me", url = "/about_me/"),
         #(name = "posts", url = "/posts/"),
         #(name = "research", url = "/research/"),

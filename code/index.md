@@ -58,7 +58,7 @@ To use: `pip install probnum`
 
 \compactcodeproject{nathanaelbosch}{parallel-in-time-ode-filters}
 
-\compactcodeproject{nathanaelbosch}{Fenrir.jl}
+<!-- \compactcodeproject{nathanaelbosch}{Fenrir.jl} -->
 
 \compactcodeproject{nathanaelbosch}{TuePlots.jl}
 
