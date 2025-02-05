@@ -16,7 +16,9 @@
 <!-- Social icons -->
 @def social = (
         github = "https://github.com/nathanaelbosch",
-        twitter = "https://twitter.com/nathanaelbosch",
+        # twitter = "https://twitter.com/nathanaelbosch",
+        bluesky = "https://bsky.app/profile/nathanaelbosch.de",
+        linkedin = "https://www.linkedin.com/in/nathanael-bosch-517499159/",
         googlescholar = "https://scholar.google.com/citations?user=2vejDygAAAAJ&hl=en",
         email = "mailto:nathanael.bosch@uni-tuebingen.de",
     )
