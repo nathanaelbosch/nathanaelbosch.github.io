@@ -245,7 +245,7 @@ title = "Publications"
 @@pubtext
     **Evolutionary Games for Global Function Minimization** \\
     Master thesis in *Mathematics* \\
-    <!-- \pubbutton{pdf}{https://www-m15.ma.tum.de/foswiki/pub/M15/Allgemeines/PublicationsEN/master_thesis_NBosch.pdf} -->
+    \pubbutton{pdf}{/assets/publications/thesis_math.pdf}
     \pubbutton{code}{https://github.com/nathanaelbosch/egt}
 @@
 @@
