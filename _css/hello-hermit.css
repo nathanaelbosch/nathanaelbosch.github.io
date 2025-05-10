@@ -182,8 +182,8 @@ template {
 }
 code[class*=language-],
 pre[class*=language-] {
-    color:#ccc;
-    background:0 0;
+    /* color:#ccc; */
+    /* background:0 0; */
     font-family:JuliaMono,Consolas,Monaco,andale mono,ubuntu mono,monospace;
     font-display:auto;
     text-align:left;
@@ -207,7 +207,7 @@ pre[class*=language-] {
 }
 :not(pre)>code[class*=language-],
 pre[class*=language-] {
-    background:#2d2d2d
+    /* background:#2d2d2d */
 }
 :not(pre)>code[class*=language-] {
     padding:.1em;
@@ -448,7 +448,7 @@ a.button.wide {
     justify-content:center;
     padding:3px 8px;
     margin-bottom:5px;
-    background:#eaeaea;
+    /* background:#eaeaea; */
     text-decoration:none;
     text-align:center;
     font-size:13px;
@@ -757,7 +757,7 @@ code {
     font-family:JuliaMono,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
     font-display:auto;
     font-feature-settings:normal;
-    background:#eaeaea;
+    /* background:#eaeaea; */
     /*padding:1px 6px;*/
     padding:1px 3px;
     margin:0 2px;
@@ -769,8 +769,10 @@ code {
     background:#3b3d42
 }
 pre {
-    background:#212020;
-    padding:20px;
+    /* background:#212020; /\*(gruvbox-)dark background*\/ */
+    /* background:#f6f8fa; */
+    /* background:#f5f5f5; */
+    padding:5px;
     border-radius:8px;
     /*font-size:.95rem;*/
     font-size:.95em;
@@ -783,11 +785,11 @@ pre {
     }
 }
 pre code {
-    background:0 0!important;
-    color:#ccc;
+    /* background:0 0!important; */
+    /* color:#ccc; */
     margin:0;
     padding:0;
-    font-size:inherit
+    /* font-size:inherit */
 }
 /*.dark-theme pre code {
  color:inherit
