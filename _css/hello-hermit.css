@@ -50,14 +50,6 @@ p a:hover {
     text-decoration:underline;
 }
 
-.pubbuttons {
-    border: 1px solid;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    padding-top: .25rem;
-    padding-bottom: .25rem;
-    text-decoration: none;
-}
 abbr[title] {
     border-bottom:none;
     text-decoration:underline;
@@ -1327,9 +1319,11 @@ h1 code {
     padding-left: 15px;
 }
 .talktext {
-    min-width: 800px;
+    /* min-width: 800px; */
     padding-right: 15px;
     padding-left: 15px;
+    word-wrap: break-word;        /* Breaks long URLs */
+    overflow-wrap: break-word;    /* Modern browsers */
 }
 .pubyear {
     border-top: 0.1px solid;
@@ -1346,6 +1340,11 @@ h1 code {
     text-decoration: none;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     color: #222;
+    display: inline-block;    /* Prevents button from splitting across lines */
+    white-space: nowrap;      /* Keeps text with its container */
+    vertical-align: top;      /* Aligns button containers properly */
+    line-height: normal;      /* Prevents line-height inheritance issues */
+    margin: 3px 4px;
 }
 .dark-theme .pubbutton {
     color: #eee;
