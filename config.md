@@ -34,7 +34,7 @@
         (name = "code", url = "/code/"),
         (name = "cv", url = "/assets/cv.pdf"),
         #(name = "about me", url = "/about_me/"),
-        #(name = "posts", url = "/posts/"),
+        (name = "posts", url = "/posts/"),
         #(name = "research", url = "/research/"),
     ]
 

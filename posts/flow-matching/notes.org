@@ -1,0 +1,19 @@
+
+* Note for later: This is how we can work with the categories
+#+begin_src julia
+  using MLJBase, Plots
+  X, y = make_moons(1024; noise=0.05)
+  X = collect.(MLJBase.Tables.rows(X))
+  y = Int.(int(y)) # But we don't use categories for now
+  scatter([x[1] for x in X], [x[2] for x in X], color=y, legend=false, title="Moons Dataset", xlabel="x1", ylabel="x2")
+#+end_src
+
+
+* From the intro
+[hands](https://www.youtube.com/watch?v=24yjRbBah3w)
+or 
+[a full glass of wine](https://www.youtube.com/watch?v=160F8F8mXlo),
+they have been improved by quite a lot and 
+
+[ChatGPT can now generate a full glass of wine]
+https://www.forbes.com/sites/esatdedezade/2025/03/26/chatgpt-can-now-generate-a-full-glass-of-wine--heres-why-thats-a-big-deal/
