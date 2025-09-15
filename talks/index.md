@@ -13,6 +13,17 @@ title = "Talks"
 <!-- co-authors: -->
 
 
+\yearsec{2025}
+
+@@pubrow
+@@talktext
+    [**International Conference on Probabilistic Numerics (ProbNum25)**](https://probnum25.github.io/), EURECOM, France \\
+    Talk: *Propagating Model Uncertainty through Filtering-based Probabilistic Numerical ODE Solvers* \\
+    \pubbutton{slides}{/assets/talks/2025_probnum25_slides.pdf}
+    \pubbutton{paper}{https://proceedings.mlr.press/v271/yao25a.html}
+@@
+@@
+
 \yearsec{2024}
 
 @@pubrow
