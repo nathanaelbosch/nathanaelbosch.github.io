@@ -1,1 +1,25 @@
-PyTorch Implementation: "Optimizing the Latent Space of Generative Networks"
+HTTP.Exceptions.StatusError(403, "GET", "/repos/nathanaelbosch/generative-latent-optimization", HTTP.Messages.Response:
+"""
+HTTP/1.1 403 Forbidden
+Date: Mon, 15 Sep 2025 18:07:08 GMT
+Server: Varnish
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Content-Type: application/json; charset=utf-8
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 0
+X-RateLimit-Reset: 1757962784
+X-RateLimit-Resource: core
+X-RateLimit-Used: 60
+Content-Length: 279
+X-GitHub-Request-Id: 4000:6958F:C225FA1:C841CA1:68C855CC
+
+{"message":"API rate limit exceeded for 52.161.55.193. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+""")
