@@ -52,7 +52,76 @@ title = "Publications"
 \newcommand{\joannasliwa}{\author{Joanna Sliwa}{https://joannasliwa.github.io/}}
 \newcommand{\frankschneider}{\author{Frank Schneider}{https://fsschneider.netlify.app/}}
 \newcommand{\agustinus}{\author{Agustinus Kristiadi}{https://agustinus.kristia.de/}}
+\newcommand{\oripress}{\author{Ori Press}{https://oripress.github.io/}}
+\newcommand{\brandonamos}{\author{Brandon Amos}{https://bamos.github.io/}}
+\newcommand{\haoyuzhao}{Haoyu Zhao}
+\newcommand{\yikaiwu}{Yikai Wu}
+\newcommand{\samuelainsworth}{Samuel K Ainsworth}
+\newcommand{\dominikkrupke}{Dominik Krupke}
+\newcommand{\patrickkidger}{\author{Patrick Kidger}{https://kidger.site/}}
+\newcommand{\touqirsajed}{Touqir Sajed}
+\newcommand{\bartolomeostellato}{\author{Bartolomeo Stellato}{https://stellato.io/}}
+\newcommand{\jisunpark}{Jisun Park}
+\newcommand{\elimeriil}{Eli Meril}
+\newcommand{\albertsteppi}{Albert Steppi}
+\newcommand{\armanzharmagambetov}{Arman Zharmagambetov}
+\newcommand{\fangzhaozhang}{Fangzhao Zhang}
+\newcommand{\davidperezpineiro}{David Perez-Pineiro}
+\newcommand{\albertomercurio}{Alberto Mercurio}
+\newcommand{\nizhan}{Ni Zhan}
+\newcommand{\talorabramovich}{Talor Abramovich}
+\newcommand{\kilianlieret}{Kilian Lieret}
+\newcommand{\hanlinzhang}{Hanlin Zhang}
+\newcommand{\shirleyhuang}{Shirley Huang}
+\newcommand{\matthiasbethge}{\author{Matthias Bethge}{https://bethgelab.org/}}
+\newcommand{\ofirpress}{\author{Ofir Press}{https://ofir.io/}}
+\newcommand{\dinglingyao}{\author{Dingling Yao}{https://ddcoan.github.io/}}
+\newcommand{\oleksandrshchur}{\author{Oleksandr Shchur}{https://shchur.github.io/}}
+\newcommand{\nickerickson}{\author{Nick Erickson}{https://www.linkedin.com/in/nickericksoncs/}}
+\newcommand{\michaelbohlkeschneider}{\author{Michael Bohlke-Schneider}{https://www.amazon.science/author/michael-bohlke-schneider}}
+\newcommand{\alicanerturkmen}{\author{Ali Caner Turkmen}{https://caner.io/}}
 
+
+\pubyear{2025}
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/algotune.png}
+@@
+@@pubtext
+    **AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?** \\
+    \oripress, \brandonamos, \haoyuzhao, \yikaiwu, \samuelainsworth, \dominikkrupke, \patrickkidger, \touqirsajed, \bartolomeostellato, \jisunpark, \me, \elimeriil, \albertsteppi, \armanzharmagambetov, \fangzhaozhang, \davidperezpineiro, \albertomercurio, \nizhan, \talorabramovich, \kilianlieret, \hanlinzhang, \shirleyhuang, \matthiasbethge, \ofirpress\\
+    _arXiv (preprint)_ \\
+    \pubbutton{arXiv}{https://arxiv.org/abs/2507.15887}
+    \pubbutton{code}{https://github.com/oripress/AlgoTune}
+    \pubbutton{website}{https://algotune.io/}
+@@
+@@
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/uncertainty_propagation.svg}
+@@
+@@pubtext
+    **Propagating Model Uncertainty through Filtering-based Probabilistic Numerical ODE Solvers** \\
+    \dinglingyao, \ft, \me\\
+    _ProbNum25_ \\
+    \pubbutton{paper}{https://proceedings.mlr.press/v271/yao25a.html}
+    \pubbutton{code}{https://github.com/DDCoan/pn-ode-up}
+@@
+@@
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/multilayerstacking.jpg}
+@@
+@@pubtext
+    **Multi-layer Stack Ensembles for Time Series Forecasting** \\
+    \me, \oleksandrshchur, \nickerickson, \michaelbohlkeschneider, \alicanerturkmen\\
+    _AutoML25_ \\
+    \pubbutton{paper}{https://openreview.net/forum?id=ve5Q1q1W5n}
+@@
+@@
 
 \pubyear{2024}
 
@@ -227,6 +296,17 @@ title = "Publications"
 \\
 
 # Theses
+\pubyear{2025}
+@@pubrow
+@@pubfig
+@@
+@@pubtext
+    **A Flexible and Efficient Framework for Probabilistic Numerical Simulation and Inference** \\
+    PhD thesis in *Computer Science*, University of Tübingen\\
+    \pubbutton{pdf}{https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/165521/dissertation.pdf?sequence=1&isAllowed=y}
+@@
+@@
+
 \pubyear{2019}
 @@pubrow
 @@pubfig
