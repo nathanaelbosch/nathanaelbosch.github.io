@@ -304,6 +304,7 @@ title = "Publications"
     **A Flexible and Efficient Framework for Probabilistic Numerical Simulation and Inference** \\
     PhD thesis in *Computer Science*, University of Tübingen\\
     \pubbutton{pdf}{https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/165521/dissertation.pdf?sequence=1&isAllowed=y}
+    \pubbutton{slides}{/assets/talks/2025_defense.pdf}
 @@
 @@
 
