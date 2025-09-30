@@ -91,8 +91,9 @@ title = "Publications"
 @@pubtext
     **AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?** \\
     \oripress, \brandonamos, \haoyuzhao, \yikaiwu, \samuelainsworth, \dominikkrupke, \patrickkidger, \touqirsajed, \bartolomeostellato, \jisunpark, \me, \elimeriil, \albertsteppi, \armanzharmagambetov, \fangzhaozhang, \davidperezpineiro, \albertomercurio, \nizhan, \talorabramovich, \kilianlieret, \hanlinzhang, \shirleyhuang, \matthiasbethge, \ofirpress\\
-    _arXiv (preprint)_ \\
+    _NeurIPS 2025_ \\
     \pubbutton{arXiv}{https://arxiv.org/abs/2507.15887}
+    \pubbutton{openreview}{https://openreview.net/forum?id=dF1tD9hjvn}
     \pubbutton{code}{https://github.com/oripress/AlgoTune}
     \pubbutton{website}{https://algotune.io/}
 @@
