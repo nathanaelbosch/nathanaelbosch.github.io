@@ -19,7 +19,7 @@ title = "Publications"
 @@
 }
 
-\newcommand{\me}{~~~<ins>Nathanael Bosch</ins>~~~}
+\newcommand{\me}{~~~<b>NB</b>~~~}
 
 \newcommand{\author}[2]{@@author
 [#1](#2)
