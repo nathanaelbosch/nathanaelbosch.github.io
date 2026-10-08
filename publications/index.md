@@ -82,6 +82,21 @@ title = "Publications"
 \newcommand{\alicanerturkmen}{\author{Ali Caner Turkmen}{https://caner.io/}}
 
 
+\pubyear{2026}
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/joannapaper.png}
+@@
+@@pubtext
+    **Low-Rank Filtering & Smoothing for Sequential Deep Learning** \\
+    \joannasliwa, \frankschneider, \me, \agustinus, \ph\\
+    _TMLR_ \\
+    \pubbutton{paper}{https://openreview.net/forum?id=1TJXpLHLKG}
+    \pubbutton{arXiv}{https://arxiv.org/abs/2410.06800}
+@@
+@@
+
 \pubyear{2025}
 
 @@pubrow
@@ -136,18 +151,6 @@ title = "Publications"
     _JOSS_ \\
     \pubbutton{paper}{https://joss.theoj.org/papers/10.21105/joss.07048}
     \pubbutton{code}{https://github.com/nathanaelbosch/ProbNumDiffEq.jl}
-@@
-@@
-
-@@pubrow
-@@pubfig
-    \fig{/assets/publications/joannapaper.png}
-@@
-@@pubtext
-    **Efficient Weight-Space Laplace-Gaussian Filtering and Smoothing for Sequential Deep Learning** \\
-    \joannasliwa, \frankschneider, \me, \agustinus, \ph\\
-    _arXiv (preprint)_ \\
-    \pubbutton{arxiv}{https://arxiv.org/abs/2410.06800}
 @@
 @@
 
