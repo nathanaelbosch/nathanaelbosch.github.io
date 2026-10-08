@@ -32,7 +32,6 @@ title = "Open Source Projects"
   \getgithubdescription{!#1/!#2}}
 }
 
-
 ## Featured Projects
 
 \codeproject{nathanaelbosch}{ProbNumDiffEq.jl}{
@@ -42,19 +41,13 @@ ProbNumDiffEq.jl provides *probabilistic numerical* ODE solvers to the Different
 Try it out: `] add ProbNumDiffEq.jl`
 }
 
-
-\codeproject{probabilistic-numerics}{probnum}{
-\fig{/assets/probnum_logo_dark_txtright.svg}
-ProbNum is a Python toolkit for solving numerical problems in linear algebra, optimization, quadrature and differential equations. ProbNum solvers not only estimate the solution of the numerical problem, but also its uncertainty (numerical error) which arises from finite computational resources, discretization and stochastic input. This numerical uncertainty can be used in downstream decisions.
-
-To use: `pip install probnum`
-}
-
 ~~~
 <br>
 ~~~
 
 ## Other projects
+
+\compactcodeproject{probabilistic-numerics}{probnum}
 
 \compactcodeproject{nathanaelbosch}{parallel-in-time-ode-filters}
 
@@ -71,7 +64,6 @@ To use: `pip install probnum`
 \compactcodeproject{pnkraemer}{tornadox}
 
 \compactcodeproject{nathanaelbosch}{generative-latent-optimization}
-
 
 ~~~
 </main>
