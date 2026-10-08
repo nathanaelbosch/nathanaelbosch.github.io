@@ -34,7 +34,7 @@ title = "Publications"
 \newcommand{\tonikarvonen}{\author{Toni Karvonen}{https://tskarvone.github.io/}}
 \newcommand{\ninaeffenberger}{\author{Nina Effenberger}{https://www.mlsustainableenergy.com/people/nina-effenberger/}}
 \newcommand{\jzenn}{\author{Johannes Zenn}{https://jzenn.github.io/}}
-\newcommand{\fxbriol}{\author{Francois-Xavier Briol}{https://fxbriol.github.io/}}
+\newcommand{\fxbriol}{\author{François-Xavier Briol}{https://fxbriol.github.io/}}
 \newcommand{\mmahsereci}{\author{Maren Mahsereci}{https://mmahsereci.github.io/}}
 \newcommand{\jstueckler}{\author{Jörg Stückler}{https://is.mpg.de/person/jstueckler}}
 \newcommand{\llt}{\author{Laura Leal-Taixé}{https://dvl.in.tum.de/team/lealtaixe/}}
@@ -131,7 +131,7 @@ title = "Publications"
     \fig{/assets/publications/joss.svg}
 @@
 @@pubtext
-    **ProbNumDiffEq. jl: Probabilistic Numerical Solvers for Ordinary Differential Equations in Julia** \\
+    **ProbNumDiffEq.jl: Probabilistic Numerical Solvers for Ordinary Differential Equations in Julia** \\
     \me\\
     _JOSS_ \\
     \pubbutton{paper}{https://joss.theoj.org/papers/10.21105/joss.07048}
