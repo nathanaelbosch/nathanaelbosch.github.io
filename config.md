@@ -5,6 +5,9 @@
 @def website_url = "https://nathanaelbosch.github.io"
 @def generate_rss = true
 
+<!-- Unpublished drafts -->
+@def ignore = ["node_modules/", "about_me/", "posts/"]
+
 
 <!-- Theme specific options -->
 <!-- @def title = "Nathanael Bosch" -->
