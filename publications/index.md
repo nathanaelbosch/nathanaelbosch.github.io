@@ -107,6 +107,7 @@ title = "Publications"
     \me\\
     _arXiv (preprint)_ \\
     \pubbutton{arXiv}{https://arxiv.org/abs/2606.08203}
+    \pubbutton{poster}{/assets/publications/stable-scalable-poster.pdf}
 @@
 @@
 
