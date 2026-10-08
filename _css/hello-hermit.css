@@ -1397,3 +1397,26 @@ h1 code {
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Add spacing between image and description */
 }
+
+.install-hint {
+    font-family: JuliaMono, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+    font-size: .95em;
+    background: #f6f8fa;
+    border-left: 3px solid #4063D8; /* Julia blue */
+    border-radius: 6px;
+    padding: .5rem .8rem;
+    margin-top: 1rem;
+}
+
+.dark-theme .install-hint {
+    background: #2b2d31;
+}
+
+.install-prompt {
+    color: #4063D8;
+    font-weight: bold;
+}
+
+.dark-theme .install-prompt {
+    color: #7b9cf0;
+}

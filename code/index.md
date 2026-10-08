@@ -38,7 +38,9 @@ title = "Open Source Projects"
 \fig{/assets/probnumdiffeq-banner.svg}
 ProbNumDiffEq.jl provides *probabilistic numerical* ODE solvers to the DifferentialEquations.jl ecosystem. The implemented ODE filters solve differential equations via Bayesian filtering and smoothing. The filters compute not just a single point estimate of the true solution, but a posterior distribution that contains an estimate of its numerical approximation error.
 
-Try it out: `] add ProbNumDiffEq.jl`
+~~~
+<div class="install-hint"><span class="install-prompt">pkg&gt;</span> add ProbNumDiffEq</div>
+~~~
 }
 
 ~~~
