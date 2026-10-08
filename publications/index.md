@@ -106,7 +106,7 @@ title = "Publications"
 @@pubtext
     **Propagating Model Uncertainty through Filtering-based Probabilistic Numerical ODE Solvers** \\
     \dinglingyao, \ft, \me\\
-    _ProbNum25_ \\
+    _ProbNum 2025_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v271/yao25a.html}
     \pubbutton{code}{https://github.com/DDCoan/pn-ode-up}
 @@
@@ -119,7 +119,7 @@ title = "Publications"
 @@pubtext
     **Multi-layer Stack Ensembles for Time Series Forecasting** \\
     \me, \oleksandrshchur, \nickerickson, \michaelbohlkeschneider, \alicanerturkmen\\
-    _AutoML25_ \\
+    _AutoML 2025_ \\
     \pubbutton{paper}{https://openreview.net/forum?id=ve5Q1q1W5n}
 @@
 @@
