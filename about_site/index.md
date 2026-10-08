@@ -10,14 +10,14 @@ title = "About this website"
 <h1><a href="{{ get_url }}">{{ fill title }}</a></h1>
 ~~~
 
-This is my personal website. Credits for the original design goes to [Djordje Atlialp](https://atlialp.com/), as well as [Frederik Ekre](https://fredrikekre.se/) for a Franklin.jl compatible version.
+This is my personal website. Credits for the original design go to [Djordje Atlialp](https://atlialp.com/), as well as [Frederik Ekre](https://fredrikekre.se/) for a Franklin.jl compatible version.
 Thanks also to [Max Koslowski](https://maximikos.github.io) for further inspiration.
 
 ## License
 
 All content on this website is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), unless otherwise stated.
 
-All code snippets on this website is licensed under the [MIT License](https://choosealicense.com/licenses/mit/), unless otherwise stated.
+All code snippets on this website are licensed under the [MIT License](https://choosealicense.com/licenses/mit/), unless otherwise stated.
 
 The website is built using the static site generator [Franklin.jl](https://franklinjl.org/) ([MIT License](https://github.com/tlienart/Franklin.jl/blob/master/LICENSE.md)).
 
