@@ -8,4 +8,4 @@ check-links:
     -blc http://localhost:8000/cv
 
 serve:
-    julia --project=. -e "using Franklin; serve()"
+    julia +1.11 --project=. -e "using Franklin; serve()"
