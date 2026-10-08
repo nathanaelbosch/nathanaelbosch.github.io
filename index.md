@@ -3,7 +3,7 @@
 <p align="center">
 <img class="circular--square"
 src="https://avatars.githubusercontent.com/u/25008422"
-alt="Avatar"
+alt="Photo of Nathanael Bosch"
 width=40%
 >
 </p>
