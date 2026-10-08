@@ -80,9 +80,35 @@ title = "Publications"
 \newcommand{\nickerickson}{\author{Nick Erickson}{https://www.linkedin.com/in/nickericksoncs/}}
 \newcommand{\michaelbohlkeschneider}{\author{Michael Bohlke-Schneider}{https://www.amazon.science/author/michael-bohlke-schneider}}
 \newcommand{\alicanerturkmen}{\author{Ali Caner Turkmen}{https://caner.io/}}
+\newcommand{\niklasschmitz}{Niklas Frederik Schmitz}
+\newcommand{\mfherbst}{\author{Michael F. Herbst}{https://michael-herbst.com/}}
 
 
 \pubyear{2026}
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/efno.png}
+@@
+@@pubtext
+    **Euclidean Fourier Neural Operators** \\
+    \me\*, \niklasschmitz\*, \mfherbst\\
+    _arXiv (preprint)_ \\
+    \pubbutton{arXiv}{https://arxiv.org/abs/2608.28425}
+@@
+@@
+
+@@pubrow
+@@pubfig
+    \fig{/assets/publications/stable-scalable-poster.jpg}
+@@
+@@pubtext
+    **Stable and Scalable Probabilistic Numerical Solvers for Stiff and High-Dimensional ODEs** \\
+    \me\\
+    _arXiv (preprint)_ \\
+    \pubbutton{arXiv}{https://arxiv.org/abs/2606.08203}
+@@
+@@
 
 @@pubrow
 @@pubfig
