@@ -1,7 +1,7 @@
 <!-- RSS settings -->
 
 @def website_title = "Nathanael Bosch"
-@def website_description = ""
+@def website_description = "Nathanael Bosch is a postdoctoral researcher at EPFL working on Bayesian optimization, probabilistic numerics, and probabilistic machine learning for scientific computing."
 @def website_url = "https://nathanaelbosch.github.io"
 @def generate_rss = true
 
