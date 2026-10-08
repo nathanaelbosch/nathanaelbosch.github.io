@@ -315,7 +315,7 @@ title = "Publications"
 @@
 @@pubtext
     **Learning Gaussian Process Dynamics Models from Visual Observations for Control** \\
-    Master thesis in *Data Engineering and Analytics*\\
+    Master's thesis in *Data Engineering and Analytics*, Technical University of Munich\\
     \pubbutton{pdf}{/assets/publications/thesis_dea.pdf}
 @@
 @@
@@ -326,7 +326,7 @@ title = "Publications"
 @@
 @@pubtext
     **Evolutionary Games for Global Function Minimization** \\
-    Master thesis in *Mathematics* \\
+    Master's thesis in *Mathematics*, Technical University of Munich\\
     \pubbutton{pdf}{/assets/publications/thesis_math.pdf}
     \pubbutton{code}{https://github.com/nathanaelbosch/egt}
 @@
@@ -338,7 +338,7 @@ title = "Publications"
 @@
 @@pubtext
     **Different Noise Models in Variable Density Compressed Sensing** \\
-    Bachelor thesis in *Mathematics*
+    Bachelor's thesis in *Mathematics*, Technical University of Munich
 @@
 @@
 
