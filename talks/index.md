@@ -74,9 +74,8 @@ title = "Talks"
 @@pubrow
 @@talktext
     **University of Edinburgh**, online \\
-    Talk at the PhD student seminar of the statistics department \\
-    Talk: 
-    *Probabilistic Numerics for Ordinary Differential Equations* \\
+    PhD student seminar of the statistics department \\
+    Talk: *Probabilistic Numerics for Ordinary Differential Equations* \\
     \pubbutton{slides}{/assets/talks/2023_edinburgh_slides.pdf}
 @@
 @@
