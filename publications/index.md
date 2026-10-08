@@ -197,7 +197,7 @@ title = "Publications"
 @@
 @@pubtext
     **Probabilistic Exponential Integrators** \\
-    \me, \ph, \ft.\\
+    \me, \ph, \ft\\
     _NeurIPS 2023_ \\
     \pubbutton{paper}{https://openreview.net/forum?id=2dx5MNs2Ip}
     \pubbutton{code}{https://github.com/nathanaelbosch/probabilistic-exponential-integrators}
@@ -212,7 +212,7 @@ title = "Publications"
 @@
 @@pubtext
     **Fenrir: Physics-Enhanced Regression for Initial Value Problems** \\
-    \ft\*, \me\*, \ph.\\
+    \ft\*, \me\*, \ph\\
     _ICML 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v162/tronarp22a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/fenrir-experiments}
@@ -226,7 +226,7 @@ title = "Publications"
 @@
 @@pubtext
     **Probabilistic ODE Solutions in Millions of Dimensions** \\
-    \pn\*, \me\*, \js\*, \ph.\\
+    \pn\*, \me\*, \js\*, \ph\\
     _ICML 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v162/kramer22b.html}
     \pubbutton{code}{https://github.com/pnkraemer/million-dimension-prob-ode-solver-experiments}
@@ -240,7 +240,7 @@ title = "Publications"
 @@
 @@pubtext
     **Pick-and-Mix Information Operators for Probabilistic ODE Solvers** \\
-    \me, \ft, \ph.\\
+    \me, \ft, \ph\\
     _AISTATS 2022_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v151/bosch22a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/pick-and-mix}
@@ -256,7 +256,7 @@ title = "Publications"
 @@
 @@pubtext
     **Calibrated Adaptive Probabilistic ODE Solvers** \\
-    \me, \ph, \ft. \\
+    \me, \ph, \ft\\
     _AISTATS 2021_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v130/bosch21a.html}
     \pubbutton{code}{https://github.com/nathanaelbosch/capos}
@@ -270,7 +270,7 @@ title = "Publications"
 @@
 @@pubtext
     **ProbNum: Probabilistic Numerics in Python** \\
-    \jw, \pn, \mp, \js, \me, \ninaeffenberger, \jzenn, Alexandra Gessner, \tonikarvonen, \fxbriol, \mmahsereci, \ph.\\
+    \jw, \pn, \mp, \js, \me, \ninaeffenberger, \jzenn, Alexandra Gessner, \tonikarvonen, \fxbriol, \mmahsereci, \ph\\
     _arXiv (preprint)_ \\
     \pubbutton{arXiv}{https://arxiv.org/abs/2112.02100}
     \pubbutton{code}{https://github.com/probabilistic-numerics/probnum}
@@ -286,7 +286,7 @@ title = "Publications"
 @@
 @@pubtext
     **Planning from Images with Deep Latent Gaussian Process Dynamics** \\
-    \me\*, \jachterhold\*, \llt, \jstueckler.\\
+    \me\*, \jachterhold\*, \llt, \jstueckler\\
     _L4DC 2020_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v120/bosch20a}
     \pubbutton{code}{https://github.com/EmbodiedVision/dlgpd}
