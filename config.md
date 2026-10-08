@@ -19,7 +19,7 @@
         # twitter = "https://twitter.com/nathanaelbosch",
         bluesky = "https://bsky.app/profile/nathanaelbosch.de",
         linkedin = "https://www.linkedin.com/in/nathanael-bosch-517499159/",
-        googlescholar = "https://scholar.google.com/citations?user=2vejDygAAAAJ&hl=en",
+        googlescholar = "https://scholar.google.com/citations?user=2vejDygAAAAJ&hl=en&sortby=pubdate",
         email = "mailto:hi@nath.pm",
     )
 
