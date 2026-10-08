@@ -185,7 +185,7 @@ title = "Publications"
     \fig{/assets/publications/mpc.svg}
 @@
 @@pubtext
-    **Probabilistic ODE Solvers for Integration Error-Aware Model Predictive Control** \\
+    **Probabilistic ODE Solvers for Integration Error-Aware Numerical Optimal Control** \\
     \amonlahr, \ft, \me, \js, \ph, \melaniezeilinger\\
     _L4DC 2024_ \\
     \pubbutton{paper}{https://proceedings.mlr.press/v242/lahr24a.html}
