@@ -25,7 +25,7 @@ The styling and theme for the website is licensed under the [MIT License](https:
 
 ## Privacy Policy
 
-No data is collected from visitors to this website. The website is hosted on GitHub Pages. GitHub's privacy policy is available [here](https://help.github.com/en/github/site-policy/github-privacy-statement). The page is delivered through Cloudflare CDN. Cloudflare's privacy policy is available [here](https://www.cloudflare.com/privacypolicy/).
+This website uses [Umami](https://umami.is/) for privacy-friendly, cookieless analytics. Umami collects only anonymized, aggregate usage data (such as page views, referrers, browser, operating system, device type, and country) and does not store any personal data. Umami's privacy policy is available [here](https://umami.is/privacy). The website is hosted on GitHub Pages. GitHub's privacy policy is available [here](https://help.github.com/en/github/site-policy/github-privacy-statement). The page is delivered through Cloudflare CDN. Cloudflare's privacy policy is available [here](https://www.cloudflare.com/privacypolicy/).
 
 ~~~
 </main>
