@@ -1,11 +1,11 @@
 default:
     just --list
 
-check-links:
-    -blc http://localhost:8000
-    -blc http://localhost:8000/publications
-    -blc http://localhost:8000/code
-    -blc http://localhost:8000/cv
+check-links: build
+    lychee --root-dir {{justfile_directory()}}/__site __site
+
+build:
+    julia +1.11 --project=. -e "using Franklin; serve(single=true)"
 
 serve:
     julia +1.11 --project=. -e "using Franklin; serve()"
