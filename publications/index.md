@@ -25,7 +25,7 @@ title = "Publications"
 [#1](#2)
 @@}
 
-\newcommand{\ph}{\author{Philipp Hennig}{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/philipp-hennig/}}
+\newcommand{\ph}{\author{Philipp Hennig}{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/philipp-hennig-1/}}
 \newcommand{\ft}{\author{Filip Tronarp}{https://filtron.github.io/}}
 \newcommand{\js}{\author{Jonathan Schmidt}{https://schmidtjonathan.github.io/}}
 \newcommand{\mp}{\author{Marvin Pförtner}{https://marvinpfoertner.github.io/}}
@@ -75,7 +75,7 @@ title = "Publications"
 \newcommand{\shirleyhuang}{Shirley Huang}
 \newcommand{\matthiasbethge}{\author{Matthias Bethge}{https://bethgelab.org/}}
 \newcommand{\ofirpress}{\author{Ofir Press}{https://ofir.io/}}
-\newcommand{\dinglingyao}{\author{Dingling Yao}{https://ddcoan.github.io/}}
+\newcommand{\dinglingyao}{\author{Dingling Yao}{https://dinglingyao.github.io/}}
 \newcommand{\oleksandrshchur}{\author{Oleksandr Shchur}{https://shchur.github.io/}}
 \newcommand{\nickerickson}{\author{Nick Erickson}{https://www.linkedin.com/in/nickericksoncs/}}
 \newcommand{\michaelbohlkeschneider}{\author{Michael Bohlke-Schneider}{https://www.amazon.science/author/michael-bohlke-schneider}}
