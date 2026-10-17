@@ -133,7 +133,7 @@ title = "Talks"
 
 @@pubrow
 @@talktext
-    [**Dagstuhl: "Probabilistic Numerical Methods – From Theory to Implementation"**](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/21432), \\ Schloss Dagstuhl, Germany \\
+    [**Dagstuhl: "Probabilistic Numerical Methods – From Theory to Implementation"**](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/21432), Schloss Dagstuhl, Germany \\
     Talk: *ProbNumDiffEq.jl: Fast and Practical ODE Filters in Julia* \\
     \pubbutton{slides}{/assets/talks/2021_dagstuhl_slides.pdf}
 @@

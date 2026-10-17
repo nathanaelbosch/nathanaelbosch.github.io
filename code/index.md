@@ -11,25 +11,31 @@ title = "Open Source Projects"
 ~~~
 
 \newcommand{\codeproject}[3]{
-\clickablecard{https://github.com/!#1/!#2}{
 ~~~
-<div>
-    <h3 style="display: flex; justify-content: space-between;">
+<a class="card" href="https://github.com/!#1/!#2">
+    <h3 class="card-title">
         <span>!#2</span>
-        <img src="https://img.shields.io/github/stars/!#1/!#2?style=flat-square" alt="GitHub stars">
+        {{ghstars !#1/!#2}}
     </h3>
-    <!-- Add other content here as needed -->
-    <div style="text-align:justify">
+    <div class="card-body">
 ~~~
 !#3
 ~~~
     </div>
-</div>
+</a>
 ~~~
-}}
+}
 
-\newcommand{\compactcodeproject}[2]{\codeproject{!#1}{!#2}{
-  \getgithubdescription{!#1/!#2}}
+\newcommand{\compactcodeproject}[2]{
+~~~
+<a class="card" href="https://github.com/!#1/!#2">
+    <h3 class="card-title">
+        <span>!#2</span>
+        {{ghstars !#1/!#2}}
+    </h3>
+    <div class="card-body"><p>{{ghdescription !#1/!#2}}</p></div>
+</a>
+~~~
 }
 
 ## Featured Projects
@@ -42,10 +48,6 @@ ProbNumDiffEq.jl provides *probabilistic numerical* ODE solvers to the Different
 <div class="install-hint"><span class="install-prompt">pkg&gt;</span> add ProbNumDiffEq</div>
 ~~~
 }
-
-~~~
-<br>
-~~~
 
 ## Other projects
 

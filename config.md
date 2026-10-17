@@ -6,7 +6,7 @@
 @def generate_rss = true
 
 <!-- Unpublished drafts -->
-@def ignore = ["node_modules/", "about_me/", "posts/"]
+@def ignore = ["node_modules/", "about_me/", "posts/", "AGENTS.md"]
 
 
 <!-- Theme specific options -->
@@ -85,44 +85,11 @@
 }
 
 \newcommand{\yearsec}[1]{
-@@pubyear
-\styletext{float:right; text-align:right}{#1}
-@@
+~~~<div class="pubyear">#1</div>~~~
 }
 
 
-\newcommand{\getgithubdescription}[1]{
-```julia:snippet
-#hideall
-using HTTP
-using JSON
-
-function get_github_description(repo)
-    repo_url = "https://github.com/" * repo
-    # Extract owner and repo name from the URL
-    parts = split(strip(repo_url, '/'), '/')
-    owner = parts[end-1]
-    repo_name = parts[end]
-
-    # GitHub API endpoint for repository information
-    api_url = "https://api.github.com/repos/$owner/$repo_name"
-
-    # Make a GET request to the GitHub API; fall back to an empty description
-    # if the request fails (e.g. rate limiting or network issues)
-    try
-        response = HTTP.get(api_url)
-        repo_info = JSON.parse(String(response.body))
-        return something(get(repo_info, "description", nothing), "")
-    catch e
-        @warn "Could not fetch GitHub description for $repo" exception = e
-        return ""
-    end
-end
-
-println(get_github_description("!#1"))
-```
-\textoutput{snippet}
-}
+\newcommand{\getgithubdescription}[1]{~~~{{ghdescription #1}}~~~}
 
 \newcommand{\clickablecard}[2]{
 ~~~<a class="card" href=#1>~~~

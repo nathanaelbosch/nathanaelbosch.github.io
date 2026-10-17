@@ -1,12 +1,9 @@
 
 ~~~
-<p align="center">
-<img class="circular--square"
+<img class="avatar"
 src="{{ fill avatar }}"
 alt="Photo of Nathanael Bosch"
-width=40%
 >
-</p>
 ~~~
 
 # {{ fill sitename }}
@@ -19,7 +16,7 @@ width=40%
 
 ---
 
-~~~<div style="text-align:justify">~~~
+~~~<div class="bio">~~~
 
 I am a postdoctoral researcher in the [Mathematics for Materials Modelling](https://matmat.org/) group
 of [Prof. Michael F. Herbst](https://michael-herbst.com/) at [EPFL](https://www.epfl.ch/en/),

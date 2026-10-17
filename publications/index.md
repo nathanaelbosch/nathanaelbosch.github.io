@@ -13,11 +13,7 @@ title = "Publications"
 <!-- co-authors: -->
 
 
-\newcommand{\pubyear}[1]{
-@@pubyear
-\styletext{float:right; text-align:right}{#1}
-@@
-}
+\newcommand{\pubyear}[1]{\yearsec{#1}}
 
 \newcommand{\me}{~~~<b>NB</b>~~~}
 
@@ -325,9 +321,7 @@ title = "Publications"
 @@
 @@
 
-\\
-
-# Theses
+## Theses
 \pubyear{2025}
 @@pubrow
 @@pubfig

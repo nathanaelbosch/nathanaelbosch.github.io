@@ -24,3 +24,37 @@ themeToggle.addEventListener("click", () => {
     window.localStorage && window.localStorage.setItem("theme", document.body.classList.contains("dark-theme") ? "dark" : "light", );
     document.body.classList.contains("dark-theme") ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");
 })
+// Highlight the menu entry of the current section
+document.querySelectorAll(".menu__inner a").forEach((a) => {
+    const href = a.getAttribute("href");
+    if (href !== "/" && window.location.pathname.startsWith(href)) a.classList.add("active");
+});
+// Publication thumbnails open a larger version of the figure in a lightbox
+const pubImages = document.querySelectorAll(".pubfig img");
+if (pubImages.length) {
+    const lightbox = document.createElement("dialog");
+    lightbox.className = "lightbox";
+    lightbox.innerHTML = '<img alt=""><p class="lightbox-caption"></p>';
+    document.body.appendChild(lightbox);
+    const lightboxImg = lightbox.querySelector("img");
+    const lightboxCaption = lightbox.querySelector(".lightbox-caption");
+    // Click anywhere to close; Escape closes the dialog natively
+    lightbox.addEventListener("click", () => lightbox.close());
+    pubImages.forEach((img) => {
+        const title = img.closest(".pubrow").querySelector(".pubtext strong")?.textContent ?? "";
+        const a = document.createElement("a");
+        a.href = img.src;
+        a.setAttribute("aria-label", `Enlarge figure: ${title}`);
+        img.replaceWith(a);
+        a.appendChild(img);
+        a.addEventListener("click", (e) => {
+            e.preventDefault();
+            lightboxImg.src = img.src;
+            lightboxImg.alt = `Figure: ${title}`;
+            // Fit the figure to the viewport, scaling small images up
+            lightboxImg.style.setProperty("--ar", img.naturalWidth / img.naturalHeight || 1.5);
+            lightboxCaption.textContent = title;
+            lightbox.showModal();
+        });
+    });
+}

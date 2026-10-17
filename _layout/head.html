@@ -35,7 +35,8 @@
 </head>
 
 <body class="">
-<!-- <body class="dark-theme"> -->
+<!-- Apply the stored theme before the page renders to avoid a flash of the light theme -->
+<script>try { if (localStorage.getItem("theme") === "dark") document.body.classList.add("dark-theme"); } catch (e) {}</script>
 <div class="container">
 
 {{insert header.html}}

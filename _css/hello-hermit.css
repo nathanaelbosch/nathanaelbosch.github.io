@@ -272,7 +272,16 @@ pre[class*=language-] {
     --phoneWidth: (max-width: 684px);
     --tabletWidth: (max-width: 900px);
     --primary-color: #39b54a;
+    --secondary-color: #237a86;
+    --muted-color: #666;
+    --border-color: #e2e2e2;
+    --surface-color: #f6f8fa;
+}
+.dark-theme {
     --secondary-color: #3AA6B6;
+    --muted-color: #a3a3ab;
+    --border-color: #45474c;
+    --surface-color: #2f3034;
 }
 @font-face {
     font-family:inter ui;
@@ -589,6 +598,12 @@ a.button.wide {
 .menu__inner li a:hover {
     text-decoration:none;
 }
+.menu__inner li a.active {
+    text-decoration:underline;
+    text-decoration-color:var(--primary-color);
+    text-decoration-thickness:2px;
+    text-underline-offset:6px;
+}
 @media(max-width:684px) {
     .menu__inner {
         flex-direction:column;
@@ -621,7 +636,6 @@ a.button.wide {
 html {
     box-sizing:border-box;
     line-height:1.6;
-    letter-spacing:.06em;
     scroll-behavior:smooth
 }
 *,
@@ -696,11 +710,16 @@ h4 {
         font-size:1.125rem
     }
 }
-.circular--square {
+.avatar {
+    width:220px;
+    max-width:60%;
+    margin:0 auto 1rem;
     border-radius:15%;
-    align-items:center;
-    justify-content:center;
-    /* box-shadow: 5px 5px 10px #ccc; */
+}
+@media(max-width:684px) {
+    .avatar {
+        margin-top:1.5rem;
+    }
 }
 img {
     display:block;
@@ -1292,110 +1311,213 @@ h1 code {
     font-variant-ligatures: none;
 }
 
+.bio {
+    text-align:justify;
+}
+@media(max-width:684px) {
+    .bio {
+        text-align:left;
+    }
+}
+
+.post h2 {
+    margin:2.5rem 0 1rem;
+}
+
+/* Publications and talks */
+.pubyear {
+    font-family:JuliaMono,monospace;
+    font-weight:700;
+    font-size:.9rem;
+    color:var(--muted-color);
+    border-top:1px solid var(--border-color);
+    padding-top:.5rem;
+    margin:2.5rem 0 .75rem;
+}
+h1 + .pubyear,
+h2 + .pubyear {
+    margin-top:1rem;
+}
 .pubrow {
-    display: flex;
-    padding-bottom: 25px;
+    display:flex;
+    gap:1.25rem;
+    margin-bottom:1.75rem;
 }
 .pubfig {
-    width: 100%;
-    min-width: 200px;
-    max-width: 200px;
-    height: auto;
-    padding-right: 15px;
+    flex:0 0 170px;
+}
+.pubfig:empty {
+    display:none;
 }
 .pubfig img {
-    display: block;
-    margin: auto;
-    box-shadow: 0 2px 5px 0;
-    width: 100%;
-    border-radius: 0.25rem;
-    background-color: #fff;
+    width:100%;
+    aspect-ratio:3 / 2;
+    object-fit:contain;
+    padding:4px;
+    background-color:#fff;
+    border:1px solid var(--border-color);
+    border-radius:6px;
 }
 .dark-theme .pubfig img {
-    box-shadow: 0 0 0 0;
+    border-color:transparent;
 }
-.pubtext {
-    padding-right: 15px;
-    padding-left: 15px;
+.pubfig a {
+    display:block;
+    cursor:zoom-in;
 }
+.pubfig a img {
+    transition:border-color .2s;
+}
+.pubfig a:hover img {
+    border-color:var(--secondary-color);
+}
+.lightbox {
+    width:min-content;
+    max-width:none;
+    max-height:none;
+    padding:0;
+    border:none;
+    background:transparent;
+    overflow:visible;
+    cursor:zoom-out;
+}
+.lightbox::backdrop {
+    background:rgba(0, 0, 0, .8);
+}
+.lightbox img {
+    --ar:1.5;
+    width:min(92vw, 1000px, calc(80vh * var(--ar)));
+    max-width:none;
+    height:auto;
+    aspect-ratio:var(--ar);
+    margin:0 auto;
+    object-fit:contain;
+    padding:12px;
+    background-color:#fff;
+    border-radius:8px;
+}
+.lightbox-caption {
+    margin:.75rem 0 0;
+    color:#eee;
+    font-size:.95rem;
+    line-height:1.4;
+    text-align:center;
+}
+html:has(.lightbox[open]) {
+    overflow:hidden;
+}
+.pubtext,
 .talktext {
-    /* min-width: 800px; */
-    padding-right: 15px;
-    padding-left: 15px;
-    word-wrap: break-word;        /* Breaks long URLs */
-    overflow-wrap: break-word;    /* Modern browsers */
+    flex:1;
+    min-width:0;
+    line-height:1.5;
+    overflow-wrap:break-word;
 }
-.pubyear {
-    border-top: 0.1px solid;
-    border-color: lightgray;
-    padding-top: 1rem;
-    margin-top: 2rem;
+.pubtext em {
+    color:var(--muted-color);
 }
-.pubbutton {
-    border: 1px solid;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    padding-top: .15rem;
-    padding-bottom: .25rem;
-    text-decoration: none;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    color: #222;
-    display: inline-block;    /* Prevents button from splitting across lines */
-    white-space: nowrap;      /* Keeps text with its container */
-    vertical-align: top;      /* Aligns button containers properly */
-    line-height: normal;      /* Prevents line-height inheritance issues */
-    margin: 3px 4px;
+.pubtext a:not(.pubbutton),
+.talktext a:not(.pubbutton) {
+    text-decoration:underline;
+    text-decoration-color:color-mix(in srgb, currentColor 30%, transparent);
+    text-underline-offset:3px;
 }
-.dark-theme .pubbutton {
-    color: #eee;
-}
-.pubbutton:hover {
-    text-decoration: none;
+.pubtext a:not(.pubbutton):hover,
+.talktext a:not(.pubbutton):hover {
+    color:var(--secondary-color);
+    text-decoration-color:currentColor;
 }
 .author {
-    display: inline
+    display:inline;
 }
-.author a {
-    /* color: var(--secondary-color); */
-    text-decoration: underline dashed;
-    /* border-bottom: 1px dashed #222; */
-    /* text-decoration: none; */
-}
-.author a:hover {
-    text-decoration: underline;
-}
-
-
-.card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 10px 0;
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
-}
-
-.card:hover {
-    background-color: #f5f5f5;
-    text-decoration: none;
+.pubbutton {
+    display:inline-block;
+    vertical-align:top;
+    white-space:nowrap;
+    font-family:JuliaMono,monospace;
+    font-size:.75rem;
+    line-height:1.2;
+    padding:.25rem .6rem;
+    margin:.5rem .4rem 0 0;
+    border:1px solid var(--border-color);
+    border-radius:4px;
     color:inherit;
+    text-decoration:none;
+    transition:color .2s, border-color .2s;
+}
+.pubbutton:hover {
+    color:var(--secondary-color);
+    border-color:var(--secondary-color);
+    text-decoration:none;
+}
+@media(max-width:684px) {
+    .pubrow {
+        flex-direction:column;
+        gap:.75rem;
+    }
+    .pubfig {
+        flex:none;
+    }
+    .pubfig img {
+        aspect-ratio:5 / 2;
+    }
 }
 
-.dark-theme .card:hover {
-    background-color: #222;
-    text-decoration: none;
+/* Code projects */
+.card {
+    display:block;
+    padding:1rem 1.25rem;
+    margin:.75rem 0;
+    border:1px solid var(--border-color);
+    border-radius:8px;
+    color:inherit;
+    text-decoration:none;
+    transition:border-color .2s, background-color .2s;
 }
-
-.card h3 {
-    margin: 0;
+.card:hover {
+    color:inherit;
+    background-color:var(--surface-color);
+    border-color:var(--secondary-color);
+    text-decoration:none;
 }
-
+.card-title {
+    justify-content:space-between;
+    gap:.25rem 1rem;
+    margin:0;
+    font-family:JuliaMono,monospace;
+    font-size:1.05rem;
+}
+.card-title span:first-child {
+    min-width:0;
+    overflow-wrap:anywhere;
+}
+.card-stars {
+    display:inline-flex;
+    margin-left:auto;
+    align-items:center;
+    gap:.3rem;
+    flex-shrink:0;
+    font-size:.85rem;
+    font-weight:400;
+    color:var(--muted-color);
+}
+.card-body {
+    overflow-wrap:anywhere;
+}
+.card-body p {
+    margin:.5rem 0 0;
+}
 .card img {
-    max-width: 100%; /* Ensure images don't overflow */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add spacing between image and description */
+    max-width:100%;
+    height:auto;
+    margin:.75rem 0;
+    border-radius:4px;
+}
+@media(max-width:684px) {
+    .card-title {
+        flex-wrap:wrap;
+        font-size:.95rem;
+    }
 }
 
 .install-hint {
