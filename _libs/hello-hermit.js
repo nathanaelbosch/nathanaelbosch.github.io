@@ -10,6 +10,11 @@ const isMobileMenu = () => {
 isMobileMenu();
 menuTrigger && menuTrigger.addEventListener("click", () => menu && menu.classList.toggle("hidden"));
 window.addEventListener("resize", isMobileMenu);
+// Close the mobile menu when tapping outside of it
+document.addEventListener("click", (e) => {
+    if (!isMobile() || !menu || !menuTrigger) return;
+    if (!menu.contains(e.target) && !menuTrigger.contains(e.target)) menu.classList.add("hidden");
+});
 // Theme selector
 const getTheme = window.localStorage && window.localStorage.getItem("theme");
 const themeToggle = document.querySelector(".theme-toggle");
