@@ -45,7 +45,7 @@
 \newcommand{\codetoggle}[1]{
 ~~~
 <div class="toggle-code-wrap" style="position:relative">
-<input id="{{ unique_id new }}" type="checkbox" checked=true">
+<input id="{{ unique_id new }}" type="checkbox" checked=true>
 <label for="{{ unique_id }}" class="switch">
   <span class="slider round"></span>
 </label>
