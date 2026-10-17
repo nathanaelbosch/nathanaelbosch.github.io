@@ -93,7 +93,7 @@ title = "Publications"
 @@pubtext
     **Euclidean Fourier Neural Operators** \\
     \me\*, \niklasschmitz\*, \mfherbst\\
-    _arXiv (preprint)_ \\
+    _Representations for the Physical Sciences Workshop at NeurIPS 2026_ \\
     \pubbutton{arXiv}{https://arxiv.org/abs/2608.28425}
 @@
 @@
@@ -105,7 +105,7 @@ title = "Publications"
 @@pubtext
     **Stable and Scalable Probabilistic Numerical Solvers for Stiff and High-Dimensional ODEs** \\
     \me\\
-    _arXiv (preprint)_ \\
+    _NeurIPS 2026_ \\
     \pubbutton{arXiv}{https://arxiv.org/abs/2606.08203}
     \pubbutton{poster}{/assets/publications/stable-scalable-poster.pdf}
 @@
