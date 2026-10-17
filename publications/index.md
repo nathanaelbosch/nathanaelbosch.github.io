@@ -95,6 +95,7 @@ title = "Publications"
     \me\*, \niklasschmitz\*, \mfherbst\\
     _Representations for the Physical Sciences Workshop at NeurIPS 2026_ \\
     \pubbutton{arXiv}{https://arxiv.org/abs/2608.28425}
+    \pubbutton{code}{https://github.com/epfl-matmat/euclidean-fourier-neural-operators}
 @@
 @@
 
