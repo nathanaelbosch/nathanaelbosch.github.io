@@ -8,6 +8,7 @@ title = "Publications"
 
 ~~~
 <h1><a href="{{ get_url }}">{{ fill title }}</a></h1>
+<p class="pubnote">* equal contribution</p>
 ~~~
 
 <!-- co-authors: -->

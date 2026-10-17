@@ -1346,8 +1346,14 @@ h1 code {
     margin:2.5rem 0 .75rem;
 }
 h1 + .pubyear,
-h2 + .pubyear {
+h2 + .pubyear,
+.pubnote + .pubyear {
     margin-top:1rem;
+}
+.pubnote {
+    margin:-.5rem 0 0;
+    font-size:.9rem;
+    color:var(--muted-color);
 }
 .pubrow {
     display:flex;
