@@ -35,8 +35,8 @@
 </head>
 
 <body class="">
-<!-- Apply the stored theme before the page renders to avoid a flash of the light theme -->
-<script>try { if (localStorage.getItem("theme") === "dark") document.body.classList.add("dark-theme"); } catch (e) {}</script>
+<!-- Apply the stored theme (or else the device setting) before the page renders to avoid a flash of the light theme -->
+<script>try { var t = localStorage.getItem("theme"); if (t === "dark" || (t === null && matchMedia("(prefers-color-scheme: dark)").matches)) document.body.classList.add("dark-theme"); } catch (e) {}</script>
 <div class="container">
 
 {{insert header.html}}

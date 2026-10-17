@@ -15,15 +15,21 @@ document.addEventListener("click", (e) => {
     if (!isMobile() || !menu || !menuTrigger) return;
     if (!menu.contains(e.target) && !menuTrigger.contains(e.target)) menu.classList.add("hidden");
 });
-// Theme selector
+// Theme selector: a stored choice wins, otherwise follow the device setting
 const getTheme = window.localStorage && window.localStorage.getItem("theme");
 const themeToggle = document.querySelector(".theme-toggle");
-const isDark = getTheme === "dark";
+const darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
+const isDark = getTheme === "dark" || (getTheme === null && darkQuery.matches);
 var metaThemeColor = document.querySelector("meta[name=theme-color]");
-if (getTheme !== null) {
+if (getTheme !== null || isDark) {
     document.body.classList.toggle("dark-theme", isDark);
     isDark ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");
 }
+darkQuery.addEventListener("change", (e) => {
+    if (window.localStorage.getItem("theme") !== null) return;
+    document.body.classList.toggle("dark-theme", e.matches);
+    e.matches ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");
+});
 themeToggle.addEventListener("click", () => {
     document.body.classList.toggle("dark-theme");
     window.localStorage && window.localStorage.setItem("theme", document.body.classList.contains("dark-theme") ? "dark" : "light", );
