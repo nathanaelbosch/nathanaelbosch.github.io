@@ -26,6 +26,9 @@
         email = "mailto:hi@nath.pm",
     )
 
+<!-- Profile photo (homepage and link previews) -->
+@def avatar = "https://avatars.githubusercontent.com/u/25008422"
+
 <!-- Logo -->
 @def logo.mark = "\$"
 @def logo.text = "cd /home/nath "
