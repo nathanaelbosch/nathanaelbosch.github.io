@@ -353,6 +353,7 @@ pre[class*=language-] {
     src: url("../assets/fonts/JuliaMono-Regular.woff2") format("woff2");
     font-display: auto;
     font-weight: 400;
+    unicode-range: U+80-10FFFF; /* Everything else, only downloaded when needed */
 }
 
 @font-face {
@@ -360,6 +361,7 @@ pre[class*=language-] {
     src: url("../assets/fonts/JuliaMono-Bold.woff2") format("woff2");
     font-display: auto;
     font-weight: 700;
+    unicode-range: U+80-10FFFF; /* Everything else, only downloaded when needed */
 }
 
 .button-container {
