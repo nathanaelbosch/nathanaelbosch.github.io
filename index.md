@@ -22,9 +22,12 @@ width=40%
 ~~~<div style="text-align:justify">~~~
 
 I am a postdoctoral researcher in the [Mathematics for Materials Modelling](https://matmat.org/) group
-at [EPFL](https://www.epfl.ch/en/) where I work on **Bayesian optimization for inverse materials design**, supervised by [Prof. Michael F. Herbst](https://michael-herbst.com/).
-Before that, I completed my PhD in machine learning at the University of Tübingen and the [IMPRS-IS](https://imprs.is.mpg.de/) under [Prof. Philipp Hennig](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/philipp-hennig-1/) on [probabilistic numerical methods](https://www.probabilistic-numerics.org/) for ordinary differential equations; see my PhD thesis ["A Flexible and Efficient Framework for Probabilistic Numerical Simulation and Inference"](https://tobias-lib.uni-tuebingen.de/xmlui/handle/10900/165521).
-I'm broadly interested in the intersection of probabilistic machine learning and scientific computing, including topics such as probabilistic numerics, Bayesian optimization, state-space models, differential equations, and Gaussian processes.
+of [Prof. Michael F. Herbst](https://michael-herbst.com/) at [EPFL](https://www.epfl.ch/en/),
+where I work on **machine learning for electronic structure simulations**,
+in particular neural operators for accelerating and improving the accuracy of density functional theory.
+Before that, I completed my PhD in machine learning at the University of Tübingen and the [IMPRS-IS](https://imprs.is.mpg.de/) with [Prof. Philipp Hennig](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/philipp-hennig-1/) on [probabilistic numerical methods](https://www.probabilistic-numerics.org/) for ordinary differential equations; see my PhD thesis ["A Flexible and Efficient Framework for Probabilistic Numerical Simulation and Inference"](https://tobias-lib.uni-tuebingen.de/xmlui/handle/10900/165521).
+More broadly, I'm interested in how machine learning can make scientific simulations faster, more accurate, and more reliable,
+which includes topics such as probabilistic numerics, surrogate modeling, state-space models, differential equations, Bayesian optimization, and Gaussian processes.
 
 I like to make my research widely accessible in the form of open-source software:
 [ProbNumDiffEq.jl](https://github.com/nathanaelbosch/ProbNumDiffEq.jl)
