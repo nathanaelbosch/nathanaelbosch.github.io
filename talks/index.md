@@ -85,8 +85,8 @@ title = "Talks"
     [**Probabilistic Numerics Spring School**](http://probnumschool.org), Tübingen, Germany \\
     Practical Session: *Probabilistic Numerics for ODEs* \\
     \pubbutton{github}{https://github.com/probabilistic-numerics/probnum-spring-school}
-    \pubbutton{tutorial}{/assets/talks/2023_probnumschool_tutorial.ipynb}
-    \pubbutton{solution}{/assets/talks/2023_probnumschool_tutorial_solution.ipynb}
+    \pubbutton{tutorial.ipynb}{/assets/talks/2023_probnumschool_tutorial.ipynb}
+    \pubbutton{solution.ipynb}{/assets/talks/2023_probnumschool_tutorial_solution.ipynb}
 @@
 @@
 
