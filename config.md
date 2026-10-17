@@ -6,7 +6,7 @@
 @def generate_rss = true
 
 <!-- Unpublished drafts -->
-@def ignore = ["node_modules/", "about_me/", "posts/", "AGENTS.md"]
+@def ignore = ["node_modules/", "about_me/", "posts/", "AGENTS.md", "justfile", "Project.toml", "Manifest.toml", "lychee.toml"]
 
 
 <!-- Theme specific options -->
