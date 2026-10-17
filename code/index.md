@@ -15,7 +15,7 @@ title = "Open Source Projects"
 <a class="card" href="https://github.com/!#1/!#2">
     <h3 class="card-title">
         <span>!#2</span>
-        {{ghstars !#1/!#2}}
+        <span class="card-meta">{{ghlanguage !#1/!#2}}{{ghstars !#1/!#2}}</span>
     </h3>
     <div class="card-body">
 ~~~
@@ -26,12 +26,12 @@ title = "Open Source Projects"
 ~~~
 }
 
-\newcommand{\compactcodeproject}[2]{
+\newcommand{\compactcodeproject}[3]{
 ~~~
 <a class="card" href="https://github.com/!#1/!#2">
     <h3 class="card-title">
         <span>!#2</span>
-        {{ghstars !#1/!#2}}
+        <span class="card-meta">{{ghlanguage !#1/!#2 !#3}}{{ghstars !#1/!#2}}</span>
     </h3>
     <div class="card-body"><p>{{ghdescription !#1/!#2}}</p></div>
 </a>
@@ -51,23 +51,23 @@ ProbNumDiffEq.jl provides *probabilistic numerical* ODE solvers to the Different
 
 ## Other projects
 
-\compactcodeproject{probabilistic-numerics}{probnum}
+\compactcodeproject{probabilistic-numerics}{probnum}{}
 
-\compactcodeproject{nathanaelbosch}{parallel-in-time-ode-filters}
+\compactcodeproject{nathanaelbosch}{parallel-in-time-ode-filters}{JAX}
 
-<!-- \compactcodeproject{nathanaelbosch}{Fenrir.jl} -->
+<!-- \compactcodeproject{nathanaelbosch}{Fenrir.jl}{} -->
 
-\compactcodeproject{nathanaelbosch}{TuePlots.jl}
+\compactcodeproject{nathanaelbosch}{TuePlots.jl}{}
 
-\compactcodeproject{nathanaelbosch}{KalmanFilterToolbox.jl}
+\compactcodeproject{nathanaelbosch}{KalmanFilterToolbox.jl}{}
 
-\compactcodeproject{nathanaelbosch}{PSDMatrices.jl}
+\compactcodeproject{nathanaelbosch}{PSDMatrices.jl}{}
 
-\compactcodeproject{nathanaelbosch}{ChaoticDynamicalSystemLibrary.jl}
+\compactcodeproject{nathanaelbosch}{ChaoticDynamicalSystemLibrary.jl}{}
 
-\compactcodeproject{pnkraemer}{tornadox}
+\compactcodeproject{pnkraemer}{tornadox}{JAX}
 
-\compactcodeproject{nathanaelbosch}{generative-latent-optimization}
+\compactcodeproject{nathanaelbosch}{generative-latent-optimization}{PyTorch}
 
 ~~~
 </main>

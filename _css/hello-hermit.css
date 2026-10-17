@@ -1510,15 +1510,26 @@ html:has(.lightbox[open]) {
     min-width:0;
     overflow-wrap:anywhere;
 }
-.card-stars {
+.card-meta {
     display:inline-flex;
-    margin-left:auto;
     align-items:center;
-    gap:.3rem;
+    gap:1rem;
+    margin-left:auto;
     flex-shrink:0;
     font-size:.85rem;
     font-weight:400;
     color:var(--muted-color);
+}
+.card-lang,
+.card-stars {
+    display:inline-flex;
+    align-items:center;
+    gap:.3rem;
+}
+.card-lang-dot {
+    width:.65rem;
+    height:.65rem;
+    border-radius:50%;
 }
 .card-body {
     overflow-wrap:anywhere;

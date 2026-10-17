@@ -27,6 +27,17 @@ end
 
 const STAR_SVG = """<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>"""
 
+# Language colors as on GitHub, plus a few frameworks
+const LANGUAGE_COLORS = Dict("Julia" => "#a270ba", "Python" => "#3572A5", "JAX" => "#26a69a", "PyTorch" => "#ee4c2c")
+
+# {{ghlanguage owner/repo}} shows GitHub's language; {{ghlanguage owner/repo Tag}} shows "Tag" instead
+function hfun_ghlanguage(params)
+    language = length(params) > 1 ? join(params[2:end], " ") : get(github_repo_info(params[1]), "language", nothing)
+    language === nothing && return ""
+    color = get(LANGUAGE_COLORS, language, "#888")
+    return """<span class="card-lang"><span class="card-lang-dot" style="background-color:$(color)"></span>$(htmlescape(language))</span>"""
+end
+
 function hfun_ghstars(params)
     stars = get(github_repo_info(params[1]), "stargazers_count", nothing)
     stars === nothing && return ""
