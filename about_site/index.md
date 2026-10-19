@@ -10,7 +10,7 @@ title = "About this website"
 <h1><a href="{{ get_url }}">{{ fill title }}</a></h1>
 ~~~
 
-This is my personal website. Credits for the original design go to [Djordje Atlialp](https://atlialp.com/), as well as [Fredrik Ekre](https://fredrikekre.se/) for a Franklin.jl compatible version.
+This is my personal website. Credits for the original design go to [Djordje Atlialp](https://djordjeatlialp.de/), as well as [Fredrik Ekre](https://fredrikekre.se/) for a Franklin.jl compatible version.
 Thanks also to [Max Koslowski](https://maximikos.github.io) for further inspiration.
 
 ## License
